@@ -6,20 +6,19 @@
         <description>Klippa update feed</description>
         <language>en</language>
         <item>
-            <title>Klippa 1.0.6</title>
+            <title>Klippa 1.0.7</title>
             <description><![CDATA[
-                <h2>What's New in 1.0.6</h2>
+                <h2>What's New in 1.0.7</h2>
                 <ul>
-                    <li>Automatic OTA updates via Sparkle</li>
-                    <li>Check for Updates in Settings and menu bar</li>
+                    <li>App icon background removed for cleaner dock appearance</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 14 Apr 2026 18:00:00 +0900</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <pubDate>Mon, 14 Apr 2026 19:00:00 +0900</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.5</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/xeminix/xeminix_release/releases/download/v1.0.6/Klippa.dmg"
+                url="https://github.com/xeminix/xeminix_release/releases/download/v1.0.7/Klippa.dmg"
                 type="application/octet-stream"
                 sparkle:edSignature=""
                 length="0"
