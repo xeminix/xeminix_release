@@ -6,19 +6,20 @@
         <description>Klippa update feed</description>
         <language>en</language>
         <item>
-            <title>Klippa 1.0.10</title>
+            <title>Klippa 1.0.11</title>
             <description><![CDATA[
-                <h2>What's New in 1.0.10</h2>
+                <h2>What's New in 1.0.11</h2>
                 <ul>
-                    <li>Redesigned menu bar icon with clipboard silhouette</li>
+                    <li>Fix code signing for distribution (Developer ID)</li>
+                    <li>Redesigned menu bar clipboard icon</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 14 Apr 2026 20:30:00 +0900</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <pubDate>Tue, 15 Apr 2026 09:00:00 +0900</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.5</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/xeminix/xeminix_release/releases/download/v1.0.10/Klippa.dmg"
+                url="https://github.com/xeminix/xeminix_release/releases/download/v1.0.11/Klippa.dmg"
                 type="application/octet-stream"
                 sparkle:edSignature=""
                 length="0"
