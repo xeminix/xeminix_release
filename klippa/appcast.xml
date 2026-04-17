@@ -2,24 +2,23 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Klippa Updates</title>
-        <link>https://raw.githubusercontent.com/xeminix/xeminix_release/main/appcast.xml</link>
+        <link>https://raw.githubusercontent.com/xeminix/xeminix_release/main/klippa/appcast.xml</link>
         <description>Klippa update feed</description>
         <language>en</language>
         <item>
-            <title>Klippa 1.0.11</title>
+            <title>Klippa 1.0.12</title>
             <description><![CDATA[
-                <h2>What's New in 1.0.11</h2>
+                <h2>What's New in 1.0.12</h2>
                 <ul>
-                    <li>Fix code signing for distribution (Developer ID)</li>
-                    <li>Redesigned menu bar clipboard icon</li>
+                    <li>Update feed URL for new release repo structure</li>
                 </ul>
             ]]></description>
-            <pubDate>Tue, 15 Apr 2026 09:00:00 +0900</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <pubDate>Thu, 17 Apr 2026 18:00:00 +0900</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.5</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/xeminix/xeminix_release/releases/download/v1.0.11/Klippa.dmg"
+                url="https://github.com/xeminix/xeminix_release/releases/download/v1.0.12/Klippa.dmg"
                 type="application/octet-stream"
                 sparkle:edSignature=""
                 length="0"
