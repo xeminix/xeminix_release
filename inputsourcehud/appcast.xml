@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>InputSourceHUD</title>
+        <item>
+            <title>1.1.0</title>
+            <pubDate>Fri, 17 Apr 2026 17:49:02 +0900</pubDate>
+            <link>https://github.com/xeminix/inputSourceHUD</link>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.0
+
+- Sparkle 기반 업데이트 경로 추가
+- OS 스타일 입력 소스 순환 HUD 반영
+- HUD 커스터마이징 및 다중 모니터 안정화 개선
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.0/InputSourceHUD.dmg" length="1778028" type="application/octet-stream" sparkle:edSignature="h0kx0X405VRadx6+QiocYanRAG1f3yIxTd9C9D0R8gWvd/aXo9lWznd7m+Jg0wb6KDhFUcNQ3lY3+6mwJh/hDA=="/>
+        </item>
+    </channel>
+</rss>
