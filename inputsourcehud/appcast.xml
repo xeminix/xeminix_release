@@ -3,20 +3,25 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
-            <title>1.1.0</title>
-            <pubDate>Fri, 17 Apr 2026 17:49:02 +0900</pubDate>
+            <title>1.1.1</title>
+            <pubDate>Sat, 18 Apr 2026 17:04:15 +0900</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
-            <sparkle:version>110</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:version>111</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.0
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.1
 
-- Sparkle 기반 업데이트 경로 추가
-- OS 스타일 입력 소스 순환 HUD 반영
-- HUD 커스터마이징 및 다중 모니터 안정화 개선
+- 앱 아이콘 추가
+- 멀티 모니터: 포커스된 윈도우 기준으로 HUD 표시 (AX API, 권한 필요)
+- AX 호출 비동기화 및 PID별 캐시 — 입력기 연속 전환 시 키 입력 밀림 제거
+- Hardened Runtime 활성화
+- Quick Assign 토글 동작 개선 (선택 재클릭 시 규칙 제거)
+- 메뉴바에서 기존 규칙의 입력기 변경 및 Use Default / Remove Rule 지원
+- HUD 배경/글자 투명도·색상 커스터마이징
+- Settings 윈도우 신호등 겹침 수정
 ]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.0/InputSourceHUD.dmg" length="1810442" type="application/octet-stream" sparkle:edSignature="qHnFTaWMBqL+Gm11c1JZpRjti3Tbi6m9YykcnL1O2tp/UDLLqrJKLUeYT5LsBC8HJqfnTcHQh1N0XPz4oPdeCA=="/>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.1/InputSourceHUD.dmg" length="4104953" type="application/octet-stream" sparkle:edSignature="awjktKE6bh7ZKj0trXRS3DTYnWDyVH4pivacmGyunYfPf6pcXeXp8Zcpcvot5t6OxivKMVm5FDnQEPQgVEVlAQ=="/>
         </item>
     </channel>
 </rss>
