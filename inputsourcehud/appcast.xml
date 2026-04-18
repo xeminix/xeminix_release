@@ -3,19 +3,18 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
-            <title>1.1.2</title>
-            <pubDate>Sat, 18 Apr 2026 17:16:13 +0900</pubDate>
+            <title>1.1.3</title>
+            <pubDate>Sat, 18 Apr 2026 17:22:28 +0900</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
-            <sparkle:version>112</sparkle:version>
-            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:version>113</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.2
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.3
 
-- Settings 사이드바에 앱 버전 표시 (Current Focus 위)
-- 기본 윈도우 크기 조정 — 사이드바 하단 콘텐츠가 기본 크기에서 잘리지 않도록 개선
+- Settings 사이드바 Version 중복 표시 제거
 ]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.2/InputSourceHUD.dmg" length="4107635" type="application/octet-stream" sparkle:edSignature="q4JSudU8+kLVxBUk1yuYYSBKg7YKI9JjiljnSArb4uNpKf40Dv4F6/DY6UrSuJtWREmgANsxh8o+ubO0fzrGCA=="/>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.3/InputSourceHUD.dmg" length="4107153" type="application/octet-stream" sparkle:edSignature="anywUbe0Eb/0thl6vfkkZ3+pkNw8i+SyUELyHGRlPGPhMcsAWe0++rI9mf5pdEN+ETlQhbogywGGulid7HLGBA=="/>
         </item>
     </channel>
 </rss>
