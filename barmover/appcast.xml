@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>barmover</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Mon, 20 Apr 2026 13:32:36 +0700</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.1
+
+- 새 앱 아이콘 적용
+- Sparkle 기반 자동 업데이트 기능 추가
+- 메뉴바 아이콘 감지 정확도 개선 (StatusItemResolver로 앱별 식별)
+- 노치/멀티모니터 환경 대응
+- windowID 변경에 강건한 매칭 로직
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.1/Barmover.dmg" length="4247391" type="application/octet-stream" sparkle:edSignature="Ca6EQ7NLjvE+5AiWFJK/IL06LJuifEduYlsZFlCP7UzWCGMgb7fcQRoFXHkcTD/gELrx/MHgW6ypMoumSko1Aw=="/>
+        </item>
+    </channel>
+</rss>
