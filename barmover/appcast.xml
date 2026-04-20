@@ -3,6 +3,22 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Mon, 20 Apr 2026 14:23:52 +0700</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.3
+
+- Settings 창 About 탭에 "Check for Updates…" 버튼 추가
+- 버전 정보를 Info.plist에서 동적으로 표시
+- 업데이트 상태 라이브 표시
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.3/Barmover.dmg" length="4160633" type="application/octet-stream" sparkle:edSignature="yPhADy1YeFNLNh44nSy412ULXMpZ5FPCOk+qW4y/eFfcyf2b1KOOZg2g2FRX2lLpEj6to+gLrzz5mrdgn+c9AQ=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Mon, 20 Apr 2026 14:19:26 +0700</pubDate>
             <link>https://github.com/xeminix/barmover</link>
