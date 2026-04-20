@@ -3,22 +3,24 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
-            <title>1.1.5</title>
-            <pubDate>Mon, 20 Apr 2026 09:24:32 +0700</pubDate>
+            <title>1.1.6</title>
+            <pubDate>Mon, 20 Apr 2026 10:31:35 +0700</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
-            <sparkle:version>115</sparkle:version>
-            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <sparkle:version>116</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.5
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.6
 
-- Apps 탭 "Add Frontmost App" 버튼을 "Add Running App…" 드롭다운으로 교체 (실행 중인 앱 중 규칙이 없는 것만 표시)
-- Apps 규칙 편집 카드에 Policy 선택 복원 (Display Name만 계속 숨김)
-- General 탭 Updates 섹션에서 Configuration / Appcast Feed / Last Update Event / Release Path 콜아웃 UI 숨김
-- Live Shortcut Cycling 카드에서 Status / Detected Shortcuts UI 숨김
-- Startup and Session 카드에서 Status UI 숨김
+- HUD 탭 순서 조정: Layout Customization 섹션을 Appearance 위로 이동 (프리뷰가 더 잘 보임)
+- HUD 투명도 슬라이더 범위 확장: Background 0~100%, Text 10~100%
+- Apps 탭 "Add Running App" 드롭다운 도입 (InputSourceHUD 자신 제외)
+- Apps 규칙 Quick Assign이 시스템에 활성화된 모든 입력기 지원 (LazyVGrid wrap)
+- General 탭 Updates / Live Shortcut Cycling / Startup 섹션에서 사용자에게 불필요한 진단 UI 숨김
+- Apps 규칙 편집 카드에 Policy 선택 복원 (Display Name만 숨김)
+- InputSourceManager: 시스템 활성 선택 가능 입력기 전부 노출 (ABC/두벌식 우선)
 ]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.5/InputSourceHUD.dmg" length="4099408" type="application/octet-stream" sparkle:edSignature="QxPjdk+bahN+Wx4pXJOso/WUuMV6P5OIenCZAzRhaF8vROWDIvw+C0mMSRyV6nnzzsAKI2LykHQw3FMXUwmmAQ=="/>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.6/InputSourceHUD.dmg" length="4106462" type="application/octet-stream" sparkle:edSignature="pHGykTIxYBDj0ft5sPY1OKwp0L2HIhuUHR6TSmwG1gPeNqbilK2+O9AWUQ8508TEgS6dJfRp3FjzbPH1MLACCA=="/>
         </item>
     </channel>
 </rss>
