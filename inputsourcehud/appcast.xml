@@ -3,23 +3,22 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
-            <title>1.1.4</title>
-            <pubDate>Mon, 20 Apr 2026 09:10:38 +0700</pubDate>
+            <title>1.1.5</title>
+            <pubDate>Mon, 20 Apr 2026 09:24:32 +0700</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
-            <sparkle:version>114</sparkle:version>
-            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.4
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.5
 
-- Show When Already Matched 기본값 Off
-- HUD 배경 투명도 기본값 30% (반투명)
-- Apps 편집 카드에서 Display Name / Policy 행 숨김
-- Apps 리스트에서 FOCUSED 뱃지 숨김
-- 설정 창 탭 콘텐츠에 스크롤바 표시
-- Page Up / Page Down / Home / End 키보드 스크롤 지원
+- Apps 탭 "Add Frontmost App" 버튼을 "Add Running App…" 드롭다운으로 교체 (실행 중인 앱 중 규칙이 없는 것만 표시)
+- Apps 규칙 편집 카드에 Policy 선택 복원 (Display Name만 계속 숨김)
+- General 탭 Updates 섹션에서 Configuration / Appcast Feed / Last Update Event / Release Path 콜아웃 UI 숨김
+- Live Shortcut Cycling 카드에서 Status / Detected Shortcuts UI 숨김
+- Startup and Session 카드에서 Status UI 숨김
 ]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.4/InputSourceHUD.dmg" length="4104072" type="application/octet-stream" sparkle:edSignature="aNyUNYTMOfAFDrfr3bEV96ozO9n/N2JjB8i5maJlmCpmw8/mUAbrRgbDG19B40dNRTcN0jSEN3AXcOexCDtBAg=="/>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.5/InputSourceHUD.dmg" length="4099408" type="application/octet-stream" sparkle:edSignature="QxPjdk+bahN+Wx4pXJOso/WUuMV6P5OIenCZAzRhaF8vROWDIvw+C0mMSRyV6nnzzsAKI2LykHQw3FMXUwmmAQ=="/>
         </item>
     </channel>
 </rss>
