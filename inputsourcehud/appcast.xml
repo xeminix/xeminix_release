@@ -3,19 +3,19 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
-            <title>1.1.7</title>
-            <pubDate>Mon, 20 Apr 2026 10:40:51 +0700</pubDate>
+            <title>1.1.8</title>
+            <pubDate>Mon, 20 Apr 2026 10:46:01 +0700</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
-            <sparkle:version>117</sparkle:version>
-            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+            <sparkle:version>118</sparkle:version>
+            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.7
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.8
 
-- 입력기 필터 정정: PressAndHold / Emoji & Symbols(Character Palette) 등 비키보드 소스 제외
-- Keyboard 카테고리의 KeyboardLayout / KeyboardInputMode 타입만 노출
+- Settings 창이 떠있는 동안 Dock 아이콘 표시 + Cmd+Tab 앱 전환 지원
+- 창이 닫히면 메뉴바 전용 모드로 자동 복귀
 ]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.7/InputSourceHUD.dmg" length="4107210" type="application/octet-stream" sparkle:edSignature="97mIBg11JjeVQpomPwC+65etcCmlK/eedRc20tLdAs+QETWQ7l6vPAfr+ZRqXhYfri0MvkHe7Gdx33ouh6y9DA=="/>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.8/InputSourceHUD.dmg" length="4111183" type="application/octet-stream" sparkle:edSignature="DFl0QQm1rs0jpnlbpG+nQeeqOcY58wN2+l7KtW9L3lneWpVzvSh44XByu+Dhpj5FUc0Scjj4sVin4JO8muA8Ag=="/>
         </item>
     </channel>
 </rss>
