@@ -3,19 +3,19 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
-            <title>1.1.8</title>
-            <pubDate>Mon, 20 Apr 2026 10:46:01 +0700</pubDate>
+            <title>1.1.9</title>
+            <pubDate>Mon, 20 Apr 2026 11:01:37 +0700</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
-            <sparkle:version>118</sparkle:version>
-            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <sparkle:version>119</sparkle:version>
+            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.8
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.9
 
-- Settings 창이 떠있는 동안 Dock 아이콘 표시 + Cmd+Tab 앱 전환 지원
-- 창이 닫히면 메뉴바 전용 모드로 자동 복귀
+- 앱 시작 시 자동으로 업데이트 체크 (Sparkle 주기 체크와 별개)
+- Automatic Check for Updates가 켜져 있으면 시작 약 2초 후 백그라운드 체크 수행
 ]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.8/InputSourceHUD.dmg" length="4111183" type="application/octet-stream" sparkle:edSignature="DFl0QQm1rs0jpnlbpG+nQeeqOcY58wN2+l7KtW9L3lneWpVzvSh44XByu+Dhpj5FUc0Scjj4sVin4JO8muA8Ag=="/>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.9/InputSourceHUD.dmg" length="4111176" type="application/octet-stream" sparkle:edSignature="jxPZpJ80Vh3S+KaPXuXWLHpi3rmP5g2U7c1j177/tPVUhp5j8gDTUw0HpM1xgbHxk9q6YwTpZ/C4cxLwjHBSCQ=="/>
         </item>
     </channel>
 </rss>
