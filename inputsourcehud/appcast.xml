@@ -3,18 +3,23 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
-            <title>1.1.3</title>
-            <pubDate>Sat, 18 Apr 2026 17:22:28 +0900</pubDate>
+            <title>1.1.4</title>
+            <pubDate>Mon, 20 Apr 2026 09:10:38 +0700</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
-            <sparkle:version>113</sparkle:version>
-            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.3
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.1.4
 
-- Settings 사이드바 Version 중복 표시 제거
+- Show When Already Matched 기본값 Off
+- HUD 배경 투명도 기본값 30% (반투명)
+- Apps 편집 카드에서 Display Name / Policy 행 숨김
+- Apps 리스트에서 FOCUSED 뱃지 숨김
+- 설정 창 탭 콘텐츠에 스크롤바 표시
+- Page Up / Page Down / Home / End 키보드 스크롤 지원
 ]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.3/InputSourceHUD.dmg" length="4107153" type="application/octet-stream" sparkle:edSignature="anywUbe0Eb/0thl6vfkkZ3+pkNw8i+SyUELyHGRlPGPhMcsAWe0++rI9mf5pdEN+ETlQhbogywGGulid7HLGBA=="/>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.1.4/InputSourceHUD.dmg" length="4104072" type="application/octet-stream" sparkle:edSignature="aNyUNYTMOfAFDrfr3bEV96ozO9n/N2JjB8i5maJlmCpmw8/mUAbrRgbDG19B40dNRTcN0jSEN3AXcOexCDtBAg=="/>
         </item>
     </channel>
 </rss>
