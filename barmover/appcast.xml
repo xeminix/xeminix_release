@@ -3,6 +3,22 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Mon, 20 Apr 2026 14:31:20 +0700</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.4
+
+- 최초 실행 시 자동 숨김 기능 제거 (초기 캐시 오작동 수정)
+- 대신 Settings → About 탭에 "Hide All Icons" 버튼 추가
+- 사용자가 원할 때 명시적으로 모든 아이콘을 Hidden으로 이동 가능
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.4/Barmover.dmg" length="4133313" type="application/octet-stream" sparkle:edSignature="6np3lUxL4sOhwggrlgHZjkFLgSwwqp/t/i9388RY761//vb6GC784XyUAOZk7oI/RI8i6S4Vx58DsnjED/RdAA=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Mon, 20 Apr 2026 14:23:52 +0700</pubDate>
             <link>https://github.com/xeminix/barmover</link>
@@ -32,24 +48,6 @@
 - 사용자가 Settings UI에서 보여줄 아이콘을 골라 표시하는 opt-in 방식
 ]]></description>
             <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.2/Barmover.dmg" length="4245268" type="application/octet-stream" sparkle:edSignature="4tJY4iWN+rBSyxyVsL0vxXDe5GpXR2zotZ1UCVctNNpr0DBqJTMUrD6Ll+c+uC8lBS0uO6HxJsD1mtsPgfgfDA=="/>
-        </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Mon, 20 Apr 2026 13:32:36 +0700</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.1
-
-- 새 앱 아이콘 적용
-- Sparkle 기반 자동 업데이트 기능 추가
-- 메뉴바 아이콘 감지 정확도 개선 (StatusItemResolver로 앱별 식별)
-- 노치/멀티모니터 환경 대응
-- windowID 변경에 강건한 매칭 로직
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.1/Barmover.dmg" length="4247391" type="application/octet-stream" sparkle:edSignature="Ca6EQ7NLjvE+5AiWFJK/IL06LJuifEduYlsZFlCP7UzWCGMgb7fcQRoFXHkcTD/gELrx/MHgW6ypMoumSko1Aw=="/>
         </item>
     </channel>
 </rss>
