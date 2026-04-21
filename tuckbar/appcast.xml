@@ -3,6 +3,29 @@
     <channel>
         <title>TuckBar</title>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Tue, 21 Apr 2026 15:05:00 +0900</pubDate>
+            <link>https://github.com/xeminix/TuckBar</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# TuckBar 0.1.1
+
+## 변경사항
+
+- **설정 탭 분리**: 일반 / 모양 / 업데이트 탭으로 재구성
+- **팝오버 배경 커스터마이징**: 색상, 색상 강도, 배경 투명도 독립 제어
+- **macOS 26 투명도 지원**: `NSGlassView` material strip 으로 투명도 슬라이더 실제 동작
+- **텍스트 커스터마이징**: 텍스트 색상 ColorPicker + 강도 슬라이더 (부가 정보 가독성 조절)
+- **라이브 미리보기**: 모양 탭에서 설정 변경이 실시간으로 반영되는 mini popover
+- **콘텐츠 불투명도 / 강조 컬러 / Row 배경/호버 강도** 각각 슬라이더로 조정
+
+## 시스템 요구사항
+- macOS 14.0 (Sonoma) 이상
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/tuckbar-v0.1.1/TuckBar.dmg" length="3791725" type="application/octet-stream" sparkle:edSignature="HJB4sCeFP7nvVCdfDBThPYhDpvBq862+bJ1TJUh3hC3aucMQpCOxrwVb9C0LjtHblKdUfpZug/JUM2BSnurIAA=="/>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Tue, 21 Apr 2026 12:50:00 +0900</pubDate>
             <link>https://github.com/xeminix/TuckBar</link>
