@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>TuckBar</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Tue, 21 Apr 2026 12:50:00 +0900</pubDate>
+            <link>https://github.com/xeminix/TuckBar</link>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# TuckBar 0.1.0 — 첫 공개
+
+macOS 메뉴바 파일 임시 보관소.
+
+## 주요 기능
+
+- **메뉴바 아이콘**으로 파일 임시 보관 (URL 참조, 복사 X)
+- **자동 펼침**: 파일 드래그 시작 또는 메뉴바 우측 호버 시 팝오버 자동 표시
+- **드래그 아웃 자동 제거**: popover 밖에서 release 시 항목 자동 정리 (Settings 토글)
+- **그리드 / 리스트 보기 전환**
+- **팝오버 투명도** 조절
+- 메뉴바 status 영역 어디서든 호버로 트리거
+- ⌥ Option 강제 복사 / ⌘ Command 강제 이동 (macOS 표준)
+
+## 시스템 요구사항
+- macOS 14.0 (Sonoma) 이상
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/tuckbar-v0.1.0/TuckBar.dmg" length="3710632" type="application/octet-stream" sparkle:edSignature="SwL1NTLTgHCWKqrnMmLd3R0CFrEZ9/7CRper/ZiW6rrplpuXsaT/aqQX0U41VyKfeB1hG/7EE/sm8HhjHE5SAA=="/>
+        </item>
+    </channel>
+</rss>
