@@ -3,6 +3,25 @@
     <channel>
         <title>TuckBar</title>
         <item>
+            <title>0.1.4</title>
+            <pubDate>Tue, 21 Apr 2026 16:14:00 +0900</pubDate>
+            <link>https://github.com/xeminix/TuckBar</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# TuckBar 0.1.4
+
+## 변경사항
+
+- 모양 탭 UI 재배치: **프리셋을 미리보기 바로 아래**로 이동
+  - 프리셋 클릭 시 미리보기 변화를 더 직관적으로 확인 가능
+
+## 시스템 요구사항
+- macOS 14.0 (Sonoma) 이상
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/tuckbar-v0.1.4/TuckBar.dmg" length="3812012" type="application/octet-stream" sparkle:edSignature="PyNgnyLmxEOqPKHyZ2mf0qgmywOBBdRWcenktBn8HFFJaUnKrt8FK/OjSdljSd7ky+gOufedMXilx4h9tlKGAQ=="/>
+        </item>
+        <item>
             <title>0.1.3</title>
             <pubDate>Tue, 21 Apr 2026 16:10:00 +0900</pubDate>
             <link>https://github.com/xeminix/TuckBar</link>
