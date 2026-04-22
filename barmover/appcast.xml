@@ -3,6 +3,38 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.7</title>
+            <pubDate>Wed, 22 Apr 2026 12:06:27 +0700</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.7
+
+## 스캔 속도 및 정확도 개선
+
+- **초기 스캔 속도 추가 개선**: Phase 2 의 Hidden 섹션 확장 대기를 고정 3초에서 동적 폴링으로 전환. 일반 환경에서 1초 내 종료.
+- **숨겨진 아이콘 캡처 경로 최적화**: ScreenCaptureKit 을 활용해 화면 밖 상태의 메뉴바 아이콘도 직접 캡처. 성공 시 Phase 4 의 "이동 → 캡처 → 복귀" 시퀀스 자체가 생략되어 **마우스 커서와 포커스가 튀는 현상 제거**.
+- **유령 아이콘 차단**: 일부 앱이 유지하는 1×1 크기의 invisible NSStatusItem 이 Settings UI 에 "책자 monochrome" 같은 유령으로 보이던 문제 수정. 초기 setup 과 10초 주기 탐지 타이머 양쪽에 동일한 프레임 검증 적용.
+- **빈 이미지 오인 수정**: 작은 컬러 아이콘(예: TuckBar F 로고)이 이전 버전에서 빈 이미지로 오판되어 앱 아이콘으로 대체되던 문제 해결. 전체 픽셀 stride 스캔 방식으로 정확하게 감지.
+
+## UX 개선
+
+- **Settings 창 Dock / Cmd+Tab 지원**: Settings 창을 열면 일시적으로 Dock 과 Cmd+Tab 전환 대상에 Barmover 가 나타나고, 창을 닫으면 다시 메뉴바 전용 모드로 복귀.
+
+## 내부 변경
+
+- Phase 1/2/4 단계별 소요 시간 로깅 추가 (`/tmp/barmover_resolver_timing.log`, `/tmp/barmover_cache.log`) — 성능 회귀 조기 감지 용도.
+- 개발용 스크립트 `scripts/restart_dev.sh` 추가 (kill + 재실행을 한 명령으로).
+
+## 알려진 이슈
+
+- `Item-0` 타이틀로 표시되는 Control Center 래핑 아이템(예: VPN 등 일부 서드파티 앱)은 여전히 실제 앱 이름으로 해석되지 않습니다. Stage 2 SkyLight 매핑이 매핑 못하는 케이스로, Phase 2 리팩토링에서 개선 예정.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.7/Barmover.dmg" length="4262853" type="application/octet-stream" sparkle:edSignature="dqZOvnnBeHs5loH/+7PiXoCS9ajlnq+aisnR6uKBJrOk3WVE4TUo+K2bA/z449KoDOwxqC94XgcVrPsvr40UDQ=="/>
+        </item>
+        <item>
             <title>1.0.6</title>
             <pubDate>Wed, 22 Apr 2026 11:05:35 +0700</pubDate>
             <link>https://github.com/xeminix/barmover</link>
@@ -51,22 +83,6 @@
 - 각종 빌드 경고 정리
 ]]></description>
             <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.5/Barmover.dmg" length="4157243" type="application/octet-stream" sparkle:edSignature="xPopl2v3mzFQQLvV7Ivb3/3aHsnznWGLwMmhO9zt4jZft9H8ZoimS2DSSztQ+yyLanXug87SEEov4InW8yoYDw=="/>
-        </item>
-        <item>
-            <title>1.0.4</title>
-            <pubDate>Mon, 20 Apr 2026 14:31:20 +0700</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.4
-
-- 최초 실행 시 자동 숨김 기능 제거 (초기 캐시 오작동 수정)
-- 대신 Settings → About 탭에 "Hide All Icons" 버튼 추가
-- 사용자가 원할 때 명시적으로 모든 아이콘을 Hidden으로 이동 가능
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.4/Barmover.dmg" length="4133313" type="application/octet-stream" sparkle:edSignature="6np3lUxL4sOhwggrlgHZjkFLgSwwqp/t/i9388RY761//vb6GC784XyUAOZk7oI/RI8i6S4Vx58DsnjED/RdAA=="/>
         </item>
     </channel>
 </rss>
