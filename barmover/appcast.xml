@@ -3,6 +3,37 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.6</title>
+            <pubDate>Wed, 22 Apr 2026 11:05:35 +0700</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.6
+
+## macOS Tahoe (26) 대응 및 성능 개선
+
+- **macOS 26 Tahoe 지원**: SkyLight.framework 기반의 새로운 per-process 윈도우 식별 경로를 도입하여, Tahoe에서 `CGWindowList` owner 가 Control Center 로 통합되는 문제를 우회합니다. 서드파티 메뉴바 아이콘을 실제 소유 앱으로 정확히 식별합니다.
+- **초기 스캔 시간 90초 → 13초**: Accessibility fallback 의 blocking 문제를 제거하고, 중복 매핑 호출을 정리했습니다. 앱을 켠 뒤 아이콘이 정리되기까지의 대기가 크게 줄어듭니다.
+- **아이콘 oscillation 제거**: 기동 직후 일부 아이콘이 hidden ↔ visible 을 반복하며 깜빡이던 문제를 해결했습니다.
+- **서브메뉴 표시 안정화**: 좌클릭 시 Hidden bar 패널과 메뉴가 안정적으로 표시됩니다.
+
+## 내부 개선
+
+- `SectionClassifier` 로 섹션 분류 로직을 단일화
+- `StatusItemResolver` 5-stage 체인 재설계 (Candidate Set → SkyLight Per-Process → Coordinate/Title → AX fallback → Legacy)
+- `MenuBarItemIdentity` persistent key 포맷 도입 (`bundleID:title:tieBreaker`)
+- 이미지 캐시 상태 머신 불변식을 코드 주석 + 전용 문서로 고정
+- 개발용 `scripts/restart_dev.sh` 유틸리티 추가
+
+## 알려진 이슈
+
+- 숨긴 아이콘 중 일부가 placeholder 로 남을 경우, 스캔 Phase 4 에서 해당 아이콘을 잠시 visible 로 꺼냈다가 다시 숨기는 과정에서 마우스 커서가 메뉴바로 순간 이동할 수 있습니다. 식별·정렬에는 영향이 없으며, 다음 버전에서 완화될 예정입니다.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.6/Barmover.dmg" length="4250435" type="application/octet-stream" sparkle:edSignature="EAqjpO+VpeObzsv4OKHCKsISdpAhrUYFhzc5DXiTt7tHyw9mvH7K7MgPI2vetAeHE9KlkWK9XYiUgl4m+wIsCw=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <pubDate>Mon, 20 Apr 2026 18:14:22 +0700</pubDate>
             <link>https://github.com/xeminix/barmover</link>
@@ -36,22 +67,6 @@
 - 사용자가 원할 때 명시적으로 모든 아이콘을 Hidden으로 이동 가능
 ]]></description>
             <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.4/Barmover.dmg" length="4133313" type="application/octet-stream" sparkle:edSignature="6np3lUxL4sOhwggrlgHZjkFLgSwwqp/t/i9388RY761//vb6GC784XyUAOZk7oI/RI8i6S4Vx58DsnjED/RdAA=="/>
-        </item>
-        <item>
-            <title>1.0.3</title>
-            <pubDate>Mon, 20 Apr 2026 14:23:52 +0700</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.3
-
-- Settings 창 About 탭에 "Check for Updates…" 버튼 추가
-- 버전 정보를 Info.plist에서 동적으로 표시
-- 업데이트 상태 라이브 표시
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.3/Barmover.dmg" length="4160633" type="application/octet-stream" sparkle:edSignature="yPhADy1YeFNLNh44nSy412ULXMpZ5FPCOk+qW4y/eFfcyf2b1KOOZg2g2FRX2lLpEj6to+gLrzz5mrdgn+c9AQ=="/>
         </item>
     </channel>
 </rss>
