@@ -3,6 +3,45 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.8</title>
+            <pubDate>Wed, 22 Apr 2026 16:56:14 +0700</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.8
+
+## 아이콘 배치 저장 / 복원 개선
+
+- **재기동 시 저장된 배치가 자동 복원됩니다**: 사용자가 Settings 에서 hidden 으로 이동한 아이콘은 다음 실행 때 OS 가 기본 배치로 되돌려도 Barmover 가 자동으로 다시 hidden 섹션으로 이동시킵니다 (Reconciliation Policy).
+- **의도 vs 관측 분리**: 과거에는 재기동 시 관측값이 저장된 의도를 덮어써서 "방금 숨긴 앱이 다시 보인다" 는 버그가 있었습니다. ArrangementStore 로 persistent intent 를 분리해 해결.
+- **Layout 탭 아이콘 Intent 인디케이터**: 각 아이콘 우하단 작은 점으로 상태 표시.
+  - 🟢 초록: 저장된 위치와 현재 위치 일치 (재기동 시 복원됨)
+  - 🟠 주황: 저장된 위치와 불일치 (복원 실패)
+  - 없음: 저장된 의도 없음
+- **HiddenBar 연속 클릭 안정화**: 3초 reveal 중 추가 클릭은 drop 되어 race 없음.
+
+## 성능 및 정리
+
+- **유령 아이템 / 중복 entry 자동 정리**: 기존 `iconArrangements` 의 legacy ghost (Control Center 오인식 엔트리), `<null>` / `com.apple.systemevents` 등 non-menu-bar 항목을 앱 기동 시 1회 자동 normalize.
+- **Settings 창 Dock / Cmd+Tab 지원**: 창 열면 Dock 아이콘 노출 + Cmd+Tab 목록 포함, 닫으면 메뉴바 전용 모드 복귀.
+- **Sparkle 시작 8초 지연**: 초기 캐시 warm-up 구간과 경쟁하지 않도록 조정.
+- **WebKit helper 프로세스 Stage 2 노이즈 제거**.
+
+## 알려진 이슈 (ISSUES.md 추적)
+
+- title="Item-0" 로 래핑된 아이템이 많은 환경에서 Stage 3 의 좌표-순서 매칭이 가끔 꼬일 수 있습니다. 드래그로 설정한 아이콘이 다른 아이콘에 표시되는 현상이 있을 수 있으며, 재드래그로 교정 가능합니다.
+- Hidden 아이콘 캡처 시 일부 경로에서 마우스 커서가 순간 이동하는 현상은 Cmd+drag CGEvent 합성의 구조적 제약으로 여전히 일부 남아 있습니다.
+
+## 내부 변경
+
+- Phase 2.5 HiddenBar Action Controller, Phase 3 ArrangementController, Phase 4 SettingsWindowSizing 통합, Phase 5 대규모 데드 코드 정리 (약 500 줄 삭제).
+- 자동 마이그레이션 체인 (v1.0.6 baseline / arrangementStore v1 / v2 ghost normalize / v3 noise cleanup) — 기존 사용자 데이터 자동 변환.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.8/Barmover.dmg" length="4306375" type="application/octet-stream" sparkle:edSignature="BozW52guMvvz1vh2FYNc5qgZtTqUSaSzMmNvNmRWbf8SLq4m8e1Ie98ddNZvwFvvF5i5eo92dv5mFA4+HEtuCg=="/>
+        </item>
+        <item>
             <title>1.0.7</title>
             <pubDate>Wed, 22 Apr 2026 12:06:27 +0700</pubDate>
             <link>https://github.com/xeminix/barmover</link>
@@ -64,25 +103,6 @@
 - 숨긴 아이콘 중 일부가 placeholder 로 남을 경우, 스캔 Phase 4 에서 해당 아이콘을 잠시 visible 로 꺼냈다가 다시 숨기는 과정에서 마우스 커서가 메뉴바로 순간 이동할 수 있습니다. 식별·정렬에는 영향이 없으며, 다음 버전에서 완화될 예정입니다.
 ]]></description>
             <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.6/Barmover.dmg" length="4250435" type="application/octet-stream" sparkle:edSignature="EAqjpO+VpeObzsv4OKHCKsISdpAhrUYFhzc5DXiTt7tHyw9mvH7K7MgPI2vetAeHE9KlkWK9XYiUgl4m+wIsCw=="/>
-        </item>
-        <item>
-            <title>1.0.5</title>
-            <pubDate>Mon, 20 Apr 2026 18:14:22 +0700</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.5
-
-- 섹션 분류 로직 개선 (아이콘 중심점 + HiddenDivider.maxX 기준)
-- ControlItem live-frame fallback 추가 (windowFrame 불일치 대응)
-- Accessibility 권한 온보딩/제어 UI 추가
-- Info.plist을 Config/ 폴더로 이동
-- Layout/About 탭 로컬라이제이션
-- 각종 빌드 경고 정리
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.5/Barmover.dmg" length="4157243" type="application/octet-stream" sparkle:edSignature="xPopl2v3mzFQQLvV7Ivb3/3aHsnznWGLwMmhO9zt4jZft9H8ZoimS2DSSztQ+yyLanXug87SEEov4InW8yoYDw=="/>
         </item>
     </channel>
 </rss>
