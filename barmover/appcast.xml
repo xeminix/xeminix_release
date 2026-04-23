@@ -3,6 +3,31 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.9</title>
+            <pubDate>Thu, 23 Apr 2026 19:38:29 +0700</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.9
+
+## ImageHash 기반 아이콘 배치 저장/복원
+
+- **이미지 fingerprint 기반 아이콘 식별**: Stage 3 coordinate matching의 비결정성을 우회하여, 아이콘 이미지의 perceptual hash(averageHash 8x8)를 persistentKey로 사용. 동일 아이콘은 세션간 동일 키를 가져 배치 저장/복원이 안정적으로 동작합니다.
+- **StatusItemResolver 힌트 체인 강화**: 3단계 힌트(previousMap → namespace → seed) + 세션간 seed 저장/복원 + ImageFingerprint 유틸리티 추가.
+- **buildMapping 호출 통합**: ArrangementOrderReconciler에서 매번 독립 호출하던 buildMapping을 시작 시 1회로 통합하여 race condition 제거.
+- **섹션 내 순서 저장**: ArrangementOrderStore + ArrangementOrderReconciler로 섹션 내부 아이콘 순서도 저장/복원.
+
+## UI 개선
+
+- **저장된 배치 UI 리뉴얼**: 섹션별 그룹(Visible Right / Visible Left / Hidden) + X좌표순 정렬. 화살표 표기 제거, 최종 섹션만 표시.
+- **새로고침 = 저장**: 새로고침 버튼 하나로 현재 배치 읽기 + ArrangementStore 저장 통합.
+- **HiddenBar 패널 그림자 조정**: shadow radius 10→6, y 4→2로 조정하여 이중 라운드 인상 완화.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.9/Barmover.dmg" length="9295338" type="application/octet-stream" sparkle:edSignature="YAqy5fdPIlttxH3YuZmeW8WlWeGaWndjKHb72w6vyXq3J+CIRO263aldx4W7DSfcUDbyzQj/K/80HOhYKVtTCg=="/>
+        </item>
+        <item>
             <title>1.0.8</title>
             <pubDate>Wed, 22 Apr 2026 16:56:14 +0700</pubDate>
             <link>https://github.com/xeminix/barmover</link>
