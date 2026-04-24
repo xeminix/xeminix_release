@@ -3,6 +3,20 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Thu, 24 Apr 2026 10:30:00 +0900</pubDate>
+            <link>https://github.com/xeminix/inputSourceHUD</link>
+            <sparkle:version>120</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.2.0
+
+- Force 정책 강화: 앱별 입력소스 고정 시 OS/수동 변경에도 자동 재강제
+- 입력소스 재강제 디버그 로깅 추가
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.2.0/InputSourceHUD.dmg" length="4116607" type="application/octet-stream" sparkle:edSignature="kb4Bph4guG39iPyLjfWMlMcdfoldiwDcd402OhFcRubIYJmDjSzYrExf9J5qyFj19LaAKjr/Ya1SXyDrv8coBg=="/>
+        </item>
+        <item>
             <title>1.1.9</title>
             <pubDate>Mon, 20 Apr 2026 11:01:37 +0700</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
