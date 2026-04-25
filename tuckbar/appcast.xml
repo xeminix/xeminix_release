@@ -3,6 +3,28 @@
     <channel>
         <title>TuckBar</title>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Fri, 25 Apr 2026 15:26:00 +0900</pubDate>
+            <link>https://github.com/xeminix/TuckBar</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# TuckBar 0.2.0
+
+## 새 기능: 드래그 트리거 존
+
+- **화면 3×3 그리드 영역 선택**: 파일 드래그 중 선택 영역에 커서 진입 시에만 팝오버 표시
+- 설정 > 일반에서 "항상" / "화면 영역" 모드 전환 + 3×3 존 그리드 선택
+- 팝오버가 선택 존 모서리에 깔끔하게 정렬 (그리드 분할선 기준)
+- 존 = 핫코너: 파일 넣기(드래그 인), 꺼내기(호버 열기 + 드래그 아웃), 아이콘 클릭 모두 동일 위치
+- 연속 드롭: 존/팝오버 안에서 드롭 후 자동 닫힘 방지
+
+## 시스템 요구사항
+- macOS 14.0 (Sonoma) 이상
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/tuckbar-v0.2.0/TuckBar.dmg" length="4258474" type="application/octet-stream" sparkle:edSignature="g6BnHRQf345hiCO4FfYsRvdHDUVlPDlmbx28DGbD2P5/cKGbErC1v6aAA30umatcSbuwkreIxI7oUarhwscJAg=="/>
+        </item>
+        <item>
             <title>0.1.4</title>
             <pubDate>Tue, 21 Apr 2026 16:14:00 +0900</pubDate>
             <link>https://github.com/xeminix/TuckBar</link>
