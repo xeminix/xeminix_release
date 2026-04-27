@@ -6,6 +6,25 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.10</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.1.10</h2>
+                <ul>
+                    <li>New tabs/windows inherit last used sort setting</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 27 Apr 2026 19:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.1.10/QuaFinder-0.1.10.dmg"
+                sparkle:version="11"
+                sparkle:shortVersionString="0.1.10"
+                sparkle:edSignature="/TNRfmh/r2R3+bpg6trZ+f3IquBNHFXex9i33mL2Wd9BaWFRCdlR9CneUhA2aLGOhOM78YnwUVi0dSQvNETSBA=="
+                length="7355321"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.9</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.1.9</h2>
