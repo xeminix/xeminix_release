@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.11</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.1.11</h2>
+                <ul>
+                    <li>Window size/position properly saved and restored</li>
+                    <li>Per-panel sort restored from session, new tabs use last sort</li>
+                    <li>Tab switch speed improved (NSViewController reuse)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 27 Apr 2026 22:20:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.1.11/QuaFinder-0.1.11.dmg"
+                sparkle:version="12"
+                sparkle:shortVersionString="0.1.11"
+                sparkle:edSignature="DYIB/jB5MZ5GKKs5nQ9H1XVMQnx8s1r2Q0JOd2pTHUufO5RSVUSlTmhY5V3Cld737WPLx6aDedfvTUGpeZnhDQ=="
+                length="7359933"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.10</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.1.10</h2>
