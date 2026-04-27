@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.5</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.1.5</h2>
+                <ul>
+                    <li>Fixed quick search panel focus issue</li>
+                    <li>Default Enter key behavior changed to Rename</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 27 Apr 2026 13:45:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.1.5/QuaFinder-0.1.5.dmg"
+                sparkle:version="6"
+                sparkle:shortVersionString="0.1.5"
+                sparkle:edSignature="ObYf1ziVQsB4ps5d0d8c0FEzWVH149JIBNcDv2gr8uSJAHr5wJZ120s1sIHwKjx3UTutbefwUcO4Y8ilTfjzCA=="
+                length="7236366"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.4</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.1.4</h2>
