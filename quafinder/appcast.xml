@@ -6,6 +6,31 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.6</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.1.6</h2>
+                <ul>
+                    <li>Panel focus architecture overhaul</li>
+                    <li>F3=Quick Look, F4=Edit, F5-F8 dialog guard</li>
+                    <li>Directory Hotlist (Cmd+D)</li>
+                    <li>Panel sync (Cmd+Left/Right)</li>
+                    <li>Async directory loading (SMB fix)</li>
+                    <li>47 strings localized (EN/KO)</li>
+                    <li>Network volume eject + icon</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 27 Apr 2026 15:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.1.6/QuaFinder-0.1.6.dmg"
+                sparkle:version="7"
+                sparkle:shortVersionString="0.1.6"
+                sparkle:edSignature="pulpYO/9W4NtL7Y6cY8I7btm5MUqkv1W8p+kupu28ut9R2sMUTud6k6GIpIg6i0De63LN1IYCfkhha7Yc8eiCg=="
+                length="7270026"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.5</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.1.5</h2>
