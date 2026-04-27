@@ -6,6 +6,28 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.2</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.1.2</h2>
+                <ul>
+                    <li>SUFeedURL fixed (public release repo)</li>
+                    <li>Settings Update tab with version info</li>
+                    <li>HUD visibility improved</li>
+                    <li>Copy/Move confirmation dialogs</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 27 Apr 2026 11:20:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/QuaFinder/releases/download/v0.1.2/QuaFinder-0.1.2.dmg"
+                sparkle:version="3"
+                sparkle:shortVersionString="0.1.2"
+                sparkle:edSignature="GGe29q7uli4aDhP9NegGEsq2rS12K5w/+FVxT9ITDKfzonS2i2IcxVk74v9ukQ9Dm4DuXwQwBKdKM2zp5jFIBg=="
+                length="7223020"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.1</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.1.1</h2>
