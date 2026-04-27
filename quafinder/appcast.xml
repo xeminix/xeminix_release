@@ -6,6 +6,28 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.7</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.1.7</h2>
+                <ul>
+                    <li>Directory Hotlist redesigned (panel-sized, filter field, Esc close)</li>
+                    <li>Quit confirmation as window sheet (proper focus)</li>
+                    <li>Search performance improved (parent folders non-recursive)</li>
+                    <li>Esc dismisses all overlays</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 27 Apr 2026 16:10:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.1.7/QuaFinder-0.1.7.dmg"
+                sparkle:version="8"
+                sparkle:shortVersionString="0.1.7"
+                sparkle:edSignature="dmWTbLh1TXWgacfQa4qg1iobH9JSptKGyLd70fVu8BZdDbm7Tn7EgGlBPYu9I7hNgRtLMBNiHF72uNv/Z264Bw=="
+                length="7303955"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.6</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.1.6</h2>
