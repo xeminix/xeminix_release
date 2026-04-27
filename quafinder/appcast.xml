@@ -6,6 +6,31 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.9</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.1.9</h2>
+                <ul>
+                    <li>Panel focus root fix (scrollView.isHidden was the cause)</li>
+                    <li>Mouse rubber band selection with visual rectangle</li>
+                    <li>Tab click: full area click + panel activation</li>
+                    <li>Session: sort key/direction + window frame saved</li>
+                    <li>Auto-save session on navigation (2s debounce)</li>
+                    <li>Full Disk Access guidance dialog</li>
+                    <li>Sort indicator synced on reload</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 27 Apr 2026 19:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.1.9/QuaFinder-0.1.9.dmg"
+                sparkle:version="10"
+                sparkle:shortVersionString="0.1.9"
+                sparkle:edSignature="Q9gWnOf2ILqowumNRNkNClhDQ23WsshEbVz0ebCtxQE7jTSMYHMoBXcfgSKo/Twi9lpXPmi6+7BxgAahQsjJDw=="
+                length="7354677"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.8</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.1.8</h2>
