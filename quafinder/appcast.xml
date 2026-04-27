@@ -6,6 +6,33 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.8</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.1.8</h2>
+                <ul>
+                    <li>Performance: FileItem I/O 50% reduction, IconCache→NSCache, displayItems cache optimization</li>
+                    <li>File ops: delete/copy/move without screen flash, cursor preserved</li>
+                    <li>Directory Hotlist separated from sidebar favorites</li>
+                    <li>F4 editor configurable (TextEdit/VS Code/Sublime/Custom)</li>
+                    <li>Mouse drag range selection support</li>
+                    <li>Tag dot rendering cached</li>
+                    <li>Finder favorites sync (Movies/Music/Pictures)</li>
+                    <li>Sort indicator localized, Quick Search multi-word matching</li>
+                    <li>Quit dialog as window sheet, Esc overlay dismiss</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 27 Apr 2026 17:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.1.8/QuaFinder-0.1.8.dmg"
+                sparkle:version="9"
+                sparkle:shortVersionString="0.1.8"
+                sparkle:edSignature="28oy2yye6LuFK8uxxh/ik3fBpAntcSM0jHdQUQz8e4VTviqqxZczDfGkt3McGfCQBm0j4lwlPOhTK+122yAiDw=="
+                length="7334676"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.7</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.1.7</h2>
