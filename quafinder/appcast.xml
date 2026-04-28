@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.5</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.5 — Inline rename fix</h2>
+                <ul>
+                    <li>[Fix] 파일 이름 변경(rename) 시 확장자가 흰 글자로 안 보이던 문제 해결 (Finder 스타일로 통일)</li>
+                    <li>[Fix] rename 후 그 파일에 그대로 포커스 유지 (Finder 동작과 일치)</li>
+                    <li>[Fix] selection contrast가 inline edit textField를 덮어쓰지 않도록 분리</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 28 Apr 2026 18:20:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.5/QuaFinder-0.2.5.dmg"
+                sparkle:version="19"
+                sparkle:shortVersionString="0.2.5"
+                sparkle:edSignature="tuDoRpyhWq6kZh+garBfMwMpRaJeNkPEYbiMGVGls2pokHQTXDgNHi0hpZkP1nJRvsbqKDhMcxYcM0VC1OulDg=="
+                length="7832922"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.4</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.4 — Theme switching fix</h2>
