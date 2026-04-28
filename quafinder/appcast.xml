@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.4</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.4 — Theme switching fix</h2>
+                <ul>
+                    <li>[Fix] Light → System 테마 전환 시 메인 윈도우가 light로 stuck되던 문제 해결</li>
+                    <li>[Fix] Dark theme 선택 시 file list 영역이 시스템 모드를 따라가던 문제 해결 (NSWindow.appearance 강제)</li>
+                    <li>[Fix] OS dark/light 변경 시 System theme이 자동으로 따라가지 않던 문제 해결</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 28 Apr 2026 17:50:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.4/QuaFinder-0.2.4.dmg"
+                sparkle:version="18"
+                sparkle:shortVersionString="0.2.4"
+                sparkle:edSignature="8Qjo9+BMXyP+PcjzLHASa/L48ECX+Aowzq3mLesIVh4YuaRtwSlEjm/AlY7jf5peRr//Ohan2O4xkk8xkzplCg=="
+                length="7830866"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.3</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.3 — Tag 시스템</h2>
