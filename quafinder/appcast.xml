@@ -6,6 +6,25 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.1</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.1</h2>
+                <ul>
+                    <li>[..] 부모 폴더 텍스트 색상 구분 (모든 뷰 모드)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 28 Apr 2026 12:15:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.1/QuaFinder-0.2.1.dmg"
+                sparkle:version="15"
+                sparkle:shortVersionString="0.2.1"
+                sparkle:edSignature="xLJwa/VT1oHdoQaNMKWivRFxfWJFRHMQJkbOOHMliMj5XakmCY2oAKA22NVbPFyfDq8B6hgpBQAxmil0MT+vCA=="
+                length="7649765"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.0</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.0 — Multi View Mode</h2>
