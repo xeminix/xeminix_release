@@ -6,6 +6,25 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.6</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.6 — Quit dialog fix</h2>
+                <ul>
+                    <li>[Fix] 종료 확인 팝업이 다른 앱에 가려지면 다시 가져올 수 없던 문제 해결 (sheet → application-modal)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 28 Apr 2026 18:35:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.6/QuaFinder-0.2.6.dmg"
+                sparkle:version="20"
+                sparkle:shortVersionString="0.2.6"
+                sparkle:edSignature="YNk7IF+dam6rKWZxaCOUGdkvnk4d1x2ZQe2BEr2MIyZ8iWpLRp6n9PO/3jiyL3Aezfi96Dtn4grP3mC1GhRiCg=="
+                length="7831404"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.5</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.5 — Inline rename fix</h2>
