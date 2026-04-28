@@ -6,6 +6,32 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.3</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.3 — Tag 시스템</h2>
+                <ul>
+                    <li>[Tag] Finder 스타일 사이드바 태그 — 7색 + 사용자 정의 태그</li>
+                    <li>[Tag] 우클릭 → 태그 submenu (✓ 표시 + Cmd+Ctrl+1~7 단축키)</li>
+                    <li>[Tag] "기타 태그…"로 임의 텍스트 태그 생성 ("회사", "중요" 등)</li>
+                    <li>[Tag] 사이드바 태그 클릭 → 시스템 전체에서 그 태그 가진 파일 검색 (가상 폴더)</li>
+                    <li>[Tag] 사이드바에 파일 drop으로 태그 부여</li>
+                    <li>[Tag] custom 태그는 text pill로 표시 (사이드바 + 파일 리스트 cell)</li>
+                    <li>[Tag] custom 태그 시스템 전체 삭제 가능</li>
+                    <li>[UX] 선택 row의 색깔 파일명을 흰색 contrast로 자동 변환</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 28 Apr 2026 17:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.3/QuaFinder-0.2.3.dmg"
+                sparkle:version="17"
+                sparkle:shortVersionString="0.2.3"
+                sparkle:edSignature="jpgc2aGNd0morT0+GBZAS+Rmt3e/StL879+Jl6RpZ9K+6e4Tx5jSgPdAdvlASgkzDSpTyHwwbj3rjazxQNe4Dw=="
+                length="7827777"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.2</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.2 — Bug Fixes & UX Improvements</h2>
