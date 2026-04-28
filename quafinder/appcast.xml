@@ -6,6 +6,30 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.0</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.0 — Multi View Mode</h2>
+                <ul>
+                    <li>Icon View: grid layout with rubber band selection</li>
+                    <li>Column View: Finder-style multi-column navigation with file preview</li>
+                    <li>[..] parent directory navigation in all views</li>
+                    <li>View mode toolbar highlighting + Cmd+Opt+1/2/3 shortcuts</li>
+                    <li>Bookmark management with HUD feedback</li>
+                    <li>View mode saved per session and new tabs</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 28 Apr 2026 12:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.0/QuaFinder-0.2.0.dmg"
+                sparkle:version="14"
+                sparkle:shortVersionString="0.2.0"
+                sparkle:edSignature="Zxm6wvBGpMbyBOYYKQsZWmGEZZeUo+joDSgsMcz10Ta2nLYAnRwkz6pA82wBk360bU3iLO8OaS8HBWbrba3CBQ=="
+                length="7478870"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.12</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.1.12</h2>
