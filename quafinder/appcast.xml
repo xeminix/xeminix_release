@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.12</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.1.12</h2>
+                <ul>
+                    <li>AirDrop: context menu + sidebar click/drag-drop</li>
+                    <li>Share: context menu + sidebar click/drag-drop</li>
+                    <li>Drop visual feedback (highlight + arrow icon)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 28 Apr 2026 00:10:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.1.12/QuaFinder-0.1.12.dmg"
+                sparkle:version="13"
+                sparkle:shortVersionString="0.1.12"
+                sparkle:edSignature="ZaO7LVEJZAUrR4kmk7cbU/pBZJ5dX2NchvDCRAzNNXjAIt07c0Olo0aJl+ZaJv6PjR1Rc9fzWzWGK3XqtOrQDw=="
+                length="7375131"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.11</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.1.11</h2>
