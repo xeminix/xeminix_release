@@ -6,6 +6,30 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.2</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.2 — Bug Fixes & UX Improvements</h2>
+                <ul>
+                    <li>[Click/Drag] Finder 스타일 클릭/드래그 — 단일선택 후 자연스러운 D&D</li>
+                    <li>[Sidebar] 다크/라이트 모드 색상 일관성 (NSVisualEffectView 적용)</li>
+                    <li>[Favorites] 기본 즐겨찾기까지 reorder/숨김 가능, hover X 삭제, drag-drop 추가/순서변경, 활성 row highlight</li>
+                    <li>[Quick Look] spacebar zoom-out 부드럽게 (icon area로 수렴, 색 번쩍임 제거)</li>
+                    <li>[Realtime] 외부 앱(Finder/Terminal)에서 파일 변경 시 즉시 반영 (DispatchSource)</li>
+                    <li>[Selection] 사이드바 selection 색상을 Finder 표준으로</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 28 Apr 2026 16:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.2/QuaFinder-0.2.2.dmg"
+                sparkle:version="16"
+                sparkle:shortVersionString="0.2.2"
+                sparkle:edSignature="Jd3n4GHHLFL8r+kGHuEXh2mJVl8JdJpCa/XKmP3mCZWA5VhaZtWLg0MdKBr/LANUNotbbbp5eRG/EHS5AIC2Bg=="
+                length="7749330"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.1</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.1</h2>
