@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.8</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.8 — Sidebar layout & column resize</h2>
+                <ul>
+                    <li>[Fix] 사이드바를 우측 또는 양쪽에 배치할 때 panel이 밀리던 layout 문제 해결</li>
+                    <li>[Fix] 이름 컬럼을 마우스로 drag해서 너비 조정 가능 (사용자 resize)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 29 Apr 2026 09:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.8/QuaFinder-0.2.8.dmg"
+                sparkle:version="22"
+                sparkle:shortVersionString="0.2.8"
+                sparkle:edSignature="DYuvde1W5Ua4ZpMqe0rA4RzMy5f5EiqWU25zxEPuVMZ5u0MU7gJ/lsKbUHeZMqknz0gDCSlLRV9wSUDauAddCw=="
+                length="7834211"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.7</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.7 — Inline rename clipboard fix</h2>
