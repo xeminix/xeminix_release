@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.10</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.10 — Resizable sidebar</h2>
+                <ul>
+                    <li>[Feature] 사이드바 너비를 마우스 drag로 직접 조정 가능 (140~400px), 설정 영구 저장</li>
+                    <li>[Fix] drag 중 width 진동 문제 해결 (gesture 좌표를 .global로)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 29 Apr 2026 17:40:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.10/QuaFinder-0.2.10.dmg"
+                sparkle:version="24"
+                sparkle:shortVersionString="0.2.10"
+                sparkle:edSignature="aJ5aAQVfl9lvf0+Se7iZZyPgksEUUoxzS9wBt25CO1dbfrpG9YOngdGtZOC5/HoSR3KLJL8LqhxJsE76Ojp8BA=="
+                length="7845052"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.9</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.9 — Column resize improvements</h2>
