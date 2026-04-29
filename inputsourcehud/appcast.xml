@@ -3,6 +3,20 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
+            <title>1.2.1</title>
+            <pubDate>Wed, 29 Apr 2026 09:00:00 +0900</pubDate>
+            <link>https://github.com/xeminix/inputSourceHUD</link>
+            <sparkle:version>121</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.2.1
+
+- Raycast / Spotlight / Alfred 같은 nonactivating panel 앱도 force 정책 적용 (AX 기반 focused application 감지 추가)
+- Accessibility 권한이 있을 때 동작 — 없으면 기존 동작과 동일
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.2.1/InputSourceHUD.dmg" length="4117263" type="application/octet-stream" sparkle:edSignature="A5reM78BXFIP3vA8FwsEmP9kEBi2O1/2F9FdKWg8TkPzUsrB0DM5Qq1mdFjN6yB/yq8EXQiUy+OoIg5kyRYpCg=="/>
+        </item>
+        <item>
             <title>1.2.0</title>
             <pubDate>Thu, 24 Apr 2026 10:30:00 +0900</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
