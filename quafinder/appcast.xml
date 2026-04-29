@@ -6,6 +6,25 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.7</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.7 — Inline rename clipboard fix</h2>
+                <ul>
+                    <li>[Fix] 파일 이름 변경 중 Cmd+C/X/V가 파일 경로 대신 텍스트 편집 동작으로 정상 작동</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 29 Apr 2026 09:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.7/QuaFinder-0.2.7.dmg"
+                sparkle:version="21"
+                sparkle:shortVersionString="0.2.7"
+                sparkle:edSignature="KV6uRt8yrbiPaw/54GmQagx3PgYM8UEzDfrrOCDZwhVI7VaanWIuC+QGnKZkWZL95tM0g97tNv7Er8wiewgXCg=="
+                length="7832199"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.6</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.6 — Quit dialog fix</h2>
