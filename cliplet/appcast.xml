@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Cliplet</title>
+        <link>https://github.com/xeminix/Cliplet</link>
+        <description>Cliplet Updates</description>
+        <language>en</language>
+        <item>
+            <title>Version 0.1.0</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.1.0 — first release</h2>
+                <p>PopClip-style floating text action panel for macOS.</p>
+                <ul>
+                    <li>15 built-in plugins: Google/Naver search + maps, Google Translate, DeepL, Claude, ChatGPT, postal code extract, character count, plus search/cut/copy/paste baseline</li>
+                    <li>Smart trigger: drag-select auto-shows panel; Shift double-tap as universal manual fallback</li>
+                    <li>Cross-app coverage: native AX (Notes/Mail/Xcode) + clipboard fallback (Chrome/Teams/Notion/Electron)</li>
+                    <li>Colorful icons toggle + Panel anchor option (Selection / Mouse cursor)</li>
+                    <li>Drag-aware dismiss: panel locks until next drag after click-outside</li>
+                    <li>Inline display for character count — result shown without dismiss</li>
+                    <li>한·영 i18n + Settings 4 tabs</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 29 Apr 2026 17:45:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.1.0/Cliplet-0.1.0.dmg"
+                sparkle:version="1"
+                sparkle:shortVersionString="0.1.0"
+                sparkle:edSignature="T2vkvIlhTArs3Yx0K0nNhrdNEJ9/df/6ldajsKOkZ1wXd/yDKrMIhdyeFjj2J66V2COvyj5Uc29TsHkDcum3Bg=="
+                length="3560013"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>
