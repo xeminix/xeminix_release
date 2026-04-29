@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.9</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.9 — Column resize improvements</h2>
+                <ul>
+                    <li>[Refactor] 별도 icon column 제거하고 이름 컬럼에 inline 통합 (NSTableCellView 내장 imageView)</li>
+                    <li>[Feature] 이름 컬럼을 panel 너비 너머까지 확장 가능 (가로 스크롤)</li>
+                    <li>[Fix] 컬럼 drag로 너비 늘릴 때 view 시점이 자동으로 따라가지 않도록 — autoscroll 차단</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 29 Apr 2026 10:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.9/QuaFinder-0.2.9.dmg"
+                sparkle:version="23"
+                sparkle:shortVersionString="0.2.9"
+                sparkle:edSignature="N66rbnOPJZ0TEL5VzeS/P/aN8OW+of1oyay2029plYYE+bhw1zhv59qizn8VeNRmUDFox2SFL6dRu9iqa9YrAQ=="
+                length="7834927"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.8</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.8 — Sidebar layout & column resize</h2>
