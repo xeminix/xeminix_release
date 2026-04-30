@@ -6,6 +6,32 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.2</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.1.2</h2>
+                <ul>
+                    <li>캡처 모드 3가지 (AX 전용 / Smart / Always 항상 자동 복사) — Settings → General</li>
+                    <li>UltraEdit 등 비표준 앱은 Always 모드로 동작 (PopClip 방식)</li>
+                    <li>컬러풀 아이콘 OFF 시 같은 브랜드 아이콘이 모노크롬으로 표시</li>
+                    <li>접근성 권한: 시스템 설정에 자동 등록 + grant 시 앱 자동 재실행</li>
+                    <li>몇만 라인 안전 처리 — 10MB 캡처 캡 + URL/번역 액션별 자체 캡</li>
+                    <li>Always 모드 성능 개선 — 클립보드 snapshot/restore 생략</li>
+                    <li>클립보드 fallback 타임아웃 1500ms로 상향 + 늦은 복사 자동 복원 워치독</li>
+                    <li>Settings 라디오 UI로 옵션 설명 노출</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 30 Apr 2026 11:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.1.2/Cliplet-0.1.2.dmg"
+                sparkle:version="3"
+                sparkle:shortVersionString="0.1.2"
+                sparkle:edSignature="YcHdfZyc2mtdEw57gqKHNEshRCMLw65EKdZTcFZiT9gBlQo6iEzhJdQJ9UkiSLZ6nmawXmBdlLl1tLIeuQvNCQ=="
+                length="3994988"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.1</title>
             <description><![CDATA[
                 <h2>Cliplet v0.1.1</h2>
