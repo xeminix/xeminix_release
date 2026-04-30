@@ -6,6 +6,30 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.3</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.1.3</h2>
+                <ul>
+                    <li>다크/라이트 모드 통일 — 모든 브랜드 아이콘에 mode-aware outline</li>
+                    <li>ChatGPT 검정 아이콘이 다크 모드 패널에서 묻히는 문제 해결</li>
+                    <li>패널 글래스 효과 일관화 (regularMaterial + 미세 tint)</li>
+                    <li>Settings 창 드래그 가능 (제목바 + 본문 어디서든)</li>
+                    <li>Settings General 탭 ScrollView — 콘텐츠 오버플로우 시 스크롤</li>
+                    <li>캡처 모드 설명 구체화 — 어떤 앱에서 동작하는지 명시 (Chrome/Safari/Slack/Notion/Electron 등)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 30 Apr 2026 12:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.1.3/Cliplet-0.1.3.dmg"
+                sparkle:version="4"
+                sparkle:shortVersionString="0.1.3"
+                sparkle:edSignature="LaIx+/j4mnRwKEG4s2tb2Ah7W8GiXIadFuo6YQj/m1Pd9AcptoQ/2ZoW81oMa2GcaNCetFsFlI7wUO02wEWFBA=="
+                length="3998834"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.2</title>
             <description><![CDATA[
                 <h2>Cliplet v0.1.2</h2>
