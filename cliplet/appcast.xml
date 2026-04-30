@@ -6,6 +6,31 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.1.1</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.1.1</h2>
+                <ul>
+                    <li>Settings 한·영 로컬라이즈</li>
+                    <li>카카오맵 플러그인 추가 (Naver Map 다음 슬롯)</li>
+                    <li>드래그 자동 트리거 옵션 추가 (Settings → General)</li>
+                    <li>패널 위치 — 드래그 영역 우측 상단으로 (PopClip 스타일)</li>
+                    <li>글자수 클릭 시 # 아이콘 자리에만 숫자 표시 (다른 아이콘 유지)</li>
+                    <li>드래그 후 클릭으로 dismiss 시 다음 드래그까지 자동 트리거 잠금</li>
+                    <li>Cmd+C fallback 후 dismiss 시 클립보드 자동 복원</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 30 Apr 2026 08:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.1.1/Cliplet-0.1.1.dmg"
+                sparkle:version="2"
+                sparkle:shortVersionString="0.1.1"
+                sparkle:edSignature="flNXb7sNiQHZ001W8BwBkKkC4S+eneH3djtVCyTtPrQ5p4oPJK0VfI+G4q+SrbGegh477T3SmltHfAgSYYPjBg=="
+                length="3543122"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.0</title>
             <description><![CDATA[
                 <h2>Cliplet v0.1.0 — first release</h2>
