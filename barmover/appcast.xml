@@ -3,6 +3,24 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.11</title>
+            <pubDate>Wed, 06 May 2026 13:37:02 +0900</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.11
+
+## 듀얼 모니터 호환성 개선
+
+- **외부 디스플레이가 좌측에 배치된 환경 지원**: 주 디스플레이 좌측에 외부 모니터를 연결한 경우 메뉴바 아이콘의 X 좌표가 음수가 되는데, 이를 항상 "숨김"으로 잘못 분류하던 동작을 보정했습니다. 이제 control item(Barmover/HiddenDivider) 기준이 잡히면 음수 좌표도 정상 분류됩니다.
+- **메뉴바 위치 검출 안정화**: 메뉴바가 위치한 디스플레이를 찾는 로직을 다듬어, 디스플레이 배치 변경 후에도 아이콘 슬롯과 이미지가 어긋나는 현상이 줄어듭니다.
+- **HiddenBar 패널 모서리 처리**: 패널이 둥근 모서리를 따라 깔끔하게 잘리도록 마무리.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.11/Barmover.dmg" length="4571594" type="application/octet-stream" sparkle:edSignature="wrmtRQqN7Wx886HgebbKndleYR6aBLKYYiGXpNm5EGbKEWJ5ZSSa/1A/8VDrKj193fnilypmHIYMyCqq10owDQ=="/>
+        </item>
+        <item>
             <title>1.0.9</title>
             <pubDate>Thu, 23 Apr 2026 19:38:29 +0700</pubDate>
             <link>https://github.com/xeminix/barmover</link>
@@ -65,69 +83,6 @@
 - 자동 마이그레이션 체인 (v1.0.6 baseline / arrangementStore v1 / v2 ghost normalize / v3 noise cleanup) — 기존 사용자 데이터 자동 변환.
 ]]></description>
             <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.8/Barmover.dmg" length="4306375" type="application/octet-stream" sparkle:edSignature="BozW52guMvvz1vh2FYNc5qgZtTqUSaSzMmNvNmRWbf8SLq4m8e1Ie98ddNZvwFvvF5i5eo92dv5mFA4+HEtuCg=="/>
-        </item>
-        <item>
-            <title>1.0.7</title>
-            <pubDate>Wed, 22 Apr 2026 12:06:27 +0700</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.7
-
-## 스캔 속도 및 정확도 개선
-
-- **초기 스캔 속도 추가 개선**: Phase 2 의 Hidden 섹션 확장 대기를 고정 3초에서 동적 폴링으로 전환. 일반 환경에서 1초 내 종료.
-- **숨겨진 아이콘 캡처 경로 최적화**: ScreenCaptureKit 을 활용해 화면 밖 상태의 메뉴바 아이콘도 직접 캡처. 성공 시 Phase 4 의 "이동 → 캡처 → 복귀" 시퀀스 자체가 생략되어 **마우스 커서와 포커스가 튀는 현상 제거**.
-- **유령 아이콘 차단**: 일부 앱이 유지하는 1×1 크기의 invisible NSStatusItem 이 Settings UI 에 "책자 monochrome" 같은 유령으로 보이던 문제 수정. 초기 setup 과 10초 주기 탐지 타이머 양쪽에 동일한 프레임 검증 적용.
-- **빈 이미지 오인 수정**: 작은 컬러 아이콘(예: TuckBar F 로고)이 이전 버전에서 빈 이미지로 오판되어 앱 아이콘으로 대체되던 문제 해결. 전체 픽셀 stride 스캔 방식으로 정확하게 감지.
-
-## UX 개선
-
-- **Settings 창 Dock / Cmd+Tab 지원**: Settings 창을 열면 일시적으로 Dock 과 Cmd+Tab 전환 대상에 Barmover 가 나타나고, 창을 닫으면 다시 메뉴바 전용 모드로 복귀.
-
-## 내부 변경
-
-- Phase 1/2/4 단계별 소요 시간 로깅 추가 (`/tmp/barmover_resolver_timing.log`, `/tmp/barmover_cache.log`) — 성능 회귀 조기 감지 용도.
-- 개발용 스크립트 `scripts/restart_dev.sh` 추가 (kill + 재실행을 한 명령으로).
-
-## 알려진 이슈
-
-- `Item-0` 타이틀로 표시되는 Control Center 래핑 아이템(예: VPN 등 일부 서드파티 앱)은 여전히 실제 앱 이름으로 해석되지 않습니다. Stage 2 SkyLight 매핑이 매핑 못하는 케이스로, Phase 2 리팩토링에서 개선 예정.
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.7/Barmover.dmg" length="4262853" type="application/octet-stream" sparkle:edSignature="dqZOvnnBeHs5loH/+7PiXoCS9ajlnq+aisnR6uKBJrOk3WVE4TUo+K2bA/z449KoDOwxqC94XgcVrPsvr40UDQ=="/>
-        </item>
-        <item>
-            <title>1.0.6</title>
-            <pubDate>Wed, 22 Apr 2026 11:05:35 +0700</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.6
-
-## macOS Tahoe (26) 대응 및 성능 개선
-
-- **macOS 26 Tahoe 지원**: SkyLight.framework 기반의 새로운 per-process 윈도우 식별 경로를 도입하여, Tahoe에서 `CGWindowList` owner 가 Control Center 로 통합되는 문제를 우회합니다. 서드파티 메뉴바 아이콘을 실제 소유 앱으로 정확히 식별합니다.
-- **초기 스캔 시간 90초 → 13초**: Accessibility fallback 의 blocking 문제를 제거하고, 중복 매핑 호출을 정리했습니다. 앱을 켠 뒤 아이콘이 정리되기까지의 대기가 크게 줄어듭니다.
-- **아이콘 oscillation 제거**: 기동 직후 일부 아이콘이 hidden ↔ visible 을 반복하며 깜빡이던 문제를 해결했습니다.
-- **서브메뉴 표시 안정화**: 좌클릭 시 Hidden bar 패널과 메뉴가 안정적으로 표시됩니다.
-
-## 내부 개선
-
-- `SectionClassifier` 로 섹션 분류 로직을 단일화
-- `StatusItemResolver` 5-stage 체인 재설계 (Candidate Set → SkyLight Per-Process → Coordinate/Title → AX fallback → Legacy)
-- `MenuBarItemIdentity` persistent key 포맷 도입 (`bundleID:title:tieBreaker`)
-- 이미지 캐시 상태 머신 불변식을 코드 주석 + 전용 문서로 고정
-- 개발용 `scripts/restart_dev.sh` 유틸리티 추가
-
-## 알려진 이슈
-
-- 숨긴 아이콘 중 일부가 placeholder 로 남을 경우, 스캔 Phase 4 에서 해당 아이콘을 잠시 visible 로 꺼냈다가 다시 숨기는 과정에서 마우스 커서가 메뉴바로 순간 이동할 수 있습니다. 식별·정렬에는 영향이 없으며, 다음 버전에서 완화될 예정입니다.
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.6/Barmover.dmg" length="4250435" type="application/octet-stream" sparkle:edSignature="EAqjpO+VpeObzsv4OKHCKsISdpAhrUYFhzc5DXiTt7tHyw9mvH7K7MgPI2vetAeHE9KlkWK9XYiUgl4m+wIsCw=="/>
         </item>
     </channel>
 </rss>
