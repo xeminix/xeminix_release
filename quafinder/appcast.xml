@@ -6,6 +6,28 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.11</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.11 — UX polish</h2>
+                <ul>
+                    <li>[Fix] X 버튼 종료 다이얼로그 깜빡임 제거 (윈도우 close 전에 alert 표시)</li>
+                    <li>[Feature] Cmd+W로 마지막 탭 닫을 때 Cmd+Q처럼 종료 확인 다이얼로그 표시</li>
+                    <li>[Feature] 검색 결과에서 Enter = 파일 위치로 이동 + 포커스, Cmd+Enter = 파일 실행</li>
+                    <li>[Fix] Cmd+Delete 삭제 다이얼로그에서 "휴지통으로 이동" 버튼이 기본 포커스를 받아 Enter로 즉시 삭제 가능 (NSAlert로 전환)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 06 May 2026 13:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.11/QuaFinder-0.2.11.dmg"
+                sparkle:version="25"
+                sparkle:shortVersionString="0.2.11"
+                sparkle:edSignature="gxPh+ur3Isza41EW4Z7PabL3kpD2EQH+HaeFlF6a3Tt8Qxwjk80XlesXsQ1YunUXdovQ9Twrcl1U/dhtkYzgBQ=="
+                length="7829899"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.10</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.10 — Resizable sidebar</h2>
