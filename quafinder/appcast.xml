@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.12</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.12 — Diff tool 개선</h2>
+                <ul>
+                    <li>[Feature] 비교 도구 목록에 Meld 추가 (/Applications/Meld.app 자동 감지)</li>
+                    <li>[Fix] Custom 비교 도구 선택 시 Browse 버튼이 동작하지 않던 문제 수정 (단일 fileImporter로 통합)</li>
+                    <li>[Feature] 설치된 비교 도구만 picker에 노출, Custom은 항상 표시</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 06 May 2026 16:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.12/QuaFinder-0.2.12.dmg"
+                sparkle:version="26"
+                sparkle:shortVersionString="0.2.12"
+                sparkle:edSignature="eyparTTYFKhQZICTxAhEe6mxmSMG7p2H1joRBNPybWznETh9FMe4bI85PX+Iy2nqNDyNYKPGZe3uEPHPwG/cAw=="
+                length="7831987"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.11</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.11 — UX polish</h2>
