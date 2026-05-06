@@ -6,6 +6,26 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.1</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.2.1</h2>
+                <ul>
+                    <li>권한 부여 흐름 개선 — Settings의 "설정 열기" 버튼이 기존 stale TCC 항목을 자동으로 reset하고 새로 등록 + 시스템 설정을 엽니다</li>
+                    <li>Sparkle 업데이트로 cdhash가 바뀌어도 사용자가 직접 손쉬운 사용 목록에서 항목을 삭제/재추가할 필요 없음</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 06 May 2026 17:55:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.2.1/Cliplet-0.2.1.dmg"
+                sparkle:version="6"
+                sparkle:shortVersionString="0.2.1"
+                sparkle:edSignature="ncS7W5Ruk8QkT3DU67FMUSv99E1WCZjw+mAcRiONZ/4rdQ9i2/RT4GA5vy2q7SLR2cJn+7T71XlTlX5DgKx7Dw=="
+                length="3652315"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.0</title>
             <description><![CDATA[
                 <h2>Cliplet v0.2.0</h2>
