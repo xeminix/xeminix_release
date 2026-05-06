@@ -6,6 +6,32 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.0</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.2.0</h2>
+                <ul>
+                    <li>네이버 맞춤법 검사 빌트인 액션 추가 — 텍스트 선택 → 녹색 "타" 버튼 → 즉시 검사</li>
+                    <li>교정 결과를 액션 바 자리에 inline hint panel로 표시 (NSAlert 모달 대신)</li>
+                    <li>[교정됨] prefix + 교정된 부분만 색상으로 강조 (띄어쓰기/맞춤법/통계/표준어 의심 4종)</li>
+                    <li>교정문 자동 클립보드 복사, 4초 후 자동 dismiss</li>
+                    <li>네트워크 실패 시 브라우저 fallback (네이버 맞춤법 검사기 페이지)</li>
+                    <li>Settings에 "확장" 탭 추가 — 빌트인 액션 활성화/비활성화 + 드래그로 순서 조정</li>
+                    <li>Settings 창 너비 확장 (탭이 화면에 모두 표시되도록)</li>
+                    <li>macOS 26에서 권한 폴링 시 발생하던 EXC_BAD_ACCESS 크래시 수정</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 06 May 2026 17:45:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.2.0/Cliplet-0.2.0.dmg"
+                sparkle:version="5"
+                sparkle:shortVersionString="0.2.0"
+                sparkle:edSignature="4zxqbOwWWgtXGDjRhdSll3lscbRs0mEfbleZRLvzdAZ0ovmpmW44w47xbYjHJu+Jn0Z4D2C6tbBsQvHECve9Cg=="
+                length="3651502"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.1.3</title>
             <description><![CDATA[
                 <h2>Cliplet v0.1.3</h2>
