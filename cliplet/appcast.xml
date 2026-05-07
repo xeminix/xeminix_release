@@ -6,6 +6,28 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.3</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.2.3</h2>
+                <ul>
+                    <li>"Javascript 드래그 잠금 해제" 액션 추가 — Safari/Chrome 의 user-select 차단을 풀어 텍스트 선택 가능하게. 액션 바 + 메뉴바 항목 둘 다 제공</li>
+                    <li>"표로 감싸기" 액션 추가 — 선택한 텍스트를 사각 박스(1×1 표)로 즉시 변환. 메일/Outlook/Pages 에서 진짜 사각 박스로, Slack/Notion/Teams 에서는 호환 가능한 형식으로</li>
+                    <li>표로 감싸기는 multi-format 클립보드 (HTML <table> + plain text) 사용 + 자동 paste 로 즉시 교체</li>
+                    <li>Settings 캡처 방식 라벨 정리 — "드래그 자동 복사" 섹션, 옵션은 Disable / Smart / Always. Smart 설명에 동작하는 앱 명시 (Chrome/Safari, Slack, Notion, Discord, Teams, Obsidian 등)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 07 May 2026 14:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.2.3/Cliplet-0.2.3.dmg"
+                sparkle:version="8"
+                sparkle:shortVersionString="0.2.3"
+                sparkle:edSignature="qZ0+cPNVoLkHzgGbPoSZpaG79QoQTNnJwaXvTatptzkVd959/kqimaZGSjVqUhKZtrj51rP5lX/u6zzO/GR0BA=="
+                length="3707787"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.2</title>
             <description><![CDATA[
                 <h2>Cliplet v0.2.2</h2>
