@@ -6,6 +6,36 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.13</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.13 — UX 대폭 강화</h2>
+                <ul>
+                    <li>[Feature] 드래그 앤 드롭 Finder 표준 동작: 같은 볼륨 이동, 다른 볼륨/CloudStorage 복사. ⌥ 강제 복사, ⌘ 강제 이동</li>
+                    <li>[Feature] 단축키 재지정 UI (설정 → 단축키): Record로 캡처, 충돌 시 빨간색 표시 + 확인 다이얼로그, 카테고리별 분류, 전체 초기화</li>
+                    <li>[Feature] 정렬 단축키 ⌃1=이름 / ⌃2=종류 / ⌃3=수정일 / ⌃4=크기 / ⌃0=방향 토글, 같은 키 재누름 시 토글</li>
+                    <li>[Feature] "종류(Kind)" 컬럼 추가, Office Open XML/AAR/APK/JKS 등 30+ 확장자 정확한 표기</li>
+                    <li>[Feature] 디렉토리 핫리스트 강화: smb/afp/ftp/sftp URL 자동 마운트, https→WebDAV 시도 후 브라우저, 자동 재마운트 (volumeURLForRemounting), 설정창에서 편집/순서변경, Cmd+D 팝오버에 selected/current dir 추가 + 설정 바로가기</li>
+                    <li>[Feature] 새 단축키: ⌘R 새로고침, ⌘I 정보 보기, ⌥⌘C 경로 복사, ⌃⌘R Finder에서 보기, ⌘⇧A 선택 반전, ⌃= 폴더 크기 계산</li>
+                    <li>[Feature] 사이드바 양쪽 모드: 좌/우 사이드바가 각자 자기 패널만 제어</li>
+                    <li>[Feature] 볼륨 row 선택 표시 + eject 즉시 반응 (백그라운드 unmount)</li>
+                    <li>[Feature] Cmd+K 서버 연결: NetFS 직접 마운트로 Finder 새창 깜빡임 제거, 컴팩트 UI + 최근 연결 강조</li>
+                    <li>[Fix] OneDrive/iCloud 등 alias/symlink를 더블클릭하거나 즐겨찾기로 등록해도 QuaFinder 내에서 정상 열림</li>
+                    <li>[Fix] X 버튼 종료 깜빡임 제거, Cmd+W 마지막 탭이면 종료, Cmd+Delete 삭제 다이얼로그 기본 포커스</li>
+                    <li>[Fix] 검색 Enter 위치 이동, ⌘Enter 실행</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 07 May 2026 17:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.13/QuaFinder-0.2.13.dmg"
+                sparkle:version="27"
+                sparkle:shortVersionString="0.2.13"
+                sparkle:edSignature="0lsD5jCFDawCF2xjSUIK5jLCgU62+WYb8jDD5YPZZRz7GfrJNoHZwM1mmgIPYXnOsjeI7wbsZowxVUwW0hc1Cg=="
+                length="8054270"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.12</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.12 — Diff tool 개선</h2>
