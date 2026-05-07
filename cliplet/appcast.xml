@@ -6,6 +6,31 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.2</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.2.2</h2>
+                <ul>
+                    <li>"Copy as Markdown" 액션 추가 — 브라우저/리치 텍스트에서 선택 → HTML을 Markdown으로 변환해 클립보드에 복사</li>
+                    <li>"Select All" 액션 추가 — ⌘A로 전체 필드 선택 후 액션 바를 자동 재호출 (전체 본문에 다른 액션을 한 번에 적용 가능)</li>
+                    <li>"Plain Text" 액션 추가 — 서식 제거된 평문만 클립보드에 set</li>
+                    <li>더블클릭/트리플클릭 트리거 — 단어/줄 선택만으로도 액션 바가 자동 등장</li>
+                    <li>Google Maps 아이콘을 4분할 핀 모양으로 교체</li>
+                    <li>부산대 맞춤법 검사 액션 제거 (네이버 맞춤법 검사로 대체됨)</li>
+                    <li>빈 영역 더블클릭에서 클립보드 폴백이 잘못 발동되어 동작이 밀리던 문제 수정</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 07 May 2026 10:50:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.2.2/Cliplet-0.2.2.dmg"
+                sparkle:version="7"
+                sparkle:shortVersionString="0.2.2"
+                sparkle:edSignature="Qvo+SNL1cBT2NwOt0uUoicr16lDqreZqmboJxNFRA5FfBdCJkjJCFZa8s7Yn5Sex12HUwRytEj5XxK05kNVCBg=="
+                length="3695442"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.1</title>
             <description><![CDATA[
                 <h2>Cliplet v0.2.1</h2>
