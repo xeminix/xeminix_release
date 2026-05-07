@@ -6,6 +6,25 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.14</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.14</h2>
+                <ul>
+                    <li>[Fix] 빈 폴더에서도 [..] 상위 폴더 행이 표시되어 키보드/마우스로 부모로 이동 가능</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 07 May 2026 17:10:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.14/QuaFinder-0.2.14.dmg"
+                sparkle:version="28"
+                sparkle:shortVersionString="0.2.14"
+                sparkle:edSignature="xz9ngxcGUqe8oFWVySzLnZ6PGlfV2IHog7km0OySxsSQuxWOoYORKxYmOm6yVqhzI6xjyeSveiPSCb/7Jh43AQ=="
+                length="8054721"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.13</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.13 — UX 대폭 강화</h2>
