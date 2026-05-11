@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.15</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.15</h2>
+                <ul>
+                    <li>[Feature] 네트워크 마운트(SMB/AFP/NFS/sshfs) 자동 새로고침: VNODE를 못 받는 네트워크 볼륨에 5초 polling fallback (로컬은 기존대로 push, 영향 0)</li>
+                    <li>[Feature] 서버 연결 다이얼로그: 필드별 컬러 배경 (host=파랑/user=초록/password=주황/share=보라), 최근 연결 더블클릭 즉시 연결, 키보드 ↑↓/Enter 네비, share path에서 Tab → 첫 최근 연결로 점프</li>
+                    <li>[Change] Cmd+\\ = 터미널 패널 토글 (기존 Cmd+`은 시스템 윈도우 사이클링으로 복원). 사이드바 토글 ⌥⌘S로 변경 (Finder 표준)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 11 May 2026 10:25:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.15/QuaFinder-0.2.15.dmg"
+                sparkle:version="29"
+                sparkle:shortVersionString="0.2.15"
+                sparkle:edSignature="NAMW/n4kscT2j9zZPMSEc6WAav5lVvVpPPMhQsdGr3VrZ2R0vGsHuw+KkI+CTpWTOwPYLRfPRcrwJe7w4rbcDA=="
+                length="8084023"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.14</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.14</h2>
