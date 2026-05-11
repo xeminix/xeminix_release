@@ -6,6 +6,31 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.17</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.17</h2>
+                <ul>
+                    <li>[Fix] 디렉토리 핫리스트: 필터 입력 중 ESC로 닫기 / ↑↓로 항목 이동 / Enter로 실행 (TextField가 키 이벤트를 가로채던 문제)</li>
+                    <li>[Fix] 디렉토리 핫리스트: 필터로 목록이 줄어들 때 엉뚱한 항목이 표시되던 버그 (ForEach identity 충돌 제거)</li>
+                    <li>[Fix] 디렉토리 핫리스트: 열렸을 때 필터 입력란에 즉시 포커스 (포커스 설정 타이밍 조정)</li>
+                    <li>[Fix] 사이드바 "즐겨찾기" 행 높이가 다른 섹션과 어긋나던 문제 (.onDrag가 listRowInsets 적용을 깨던 문제)</li>
+                    <li>[Change] 사이드바 즐겨찾기 빈 영역 폴더 드롭을 List 레벨 onDrop으로 처리 (보이지 않던 tail-catcher 행 제거)</li>
+                    <li>[Feature] Selection-Toggle focus indicator 외곽선: [..] 행에도 표시, 스크롤로 행이 재활용돼도 유지</li>
+                    <li>설정/로컬라이제이션 보강</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 11 May 2026 18:05:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.17/QuaFinder-0.2.17.dmg"
+                sparkle:version="31"
+                sparkle:shortVersionString="0.2.17"
+                sparkle:edSignature="IegUcCT91P9UcwBaFtx0rqUWfaD8tEyE3chzpVaXQbGBq6aLm5cc8+jdEdNXd3jIlZcSwzBKLyKPBdc8cje/Aw=="
+                length="8013401"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.16</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.16</h2>
