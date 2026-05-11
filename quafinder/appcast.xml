@@ -6,6 +6,35 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.16</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.16</h2>
+                <ul>
+                    <li>[Fix] F7 새 폴더 생성 후 그 폴더에 포커스가 가도록 수정</li>
+                    <li>[Feature] 동일 이름 폴더가 있을 때 자동 (2)(3) 대신 "새폴더 (2)로 만들까요?" 확인 팝업</li>
+                    <li>[Fix] 정렬 단축키 ⌃1/⌃2/⌃3/⌃4가 실제로 정렬을 변경 (sortKey didSet에서 generation bump)</li>
+                    <li>[Feature] Cmd+N 새 창은 이전 창 사이즈 상속 + 우측-아래 cascade 위치</li>
+                    <li>[Feature] 다중 panel 창에서 Cmd+W 마지막 탭 닫기 시 그 창만 닫음 (전체 종료 X)</li>
+                    <li>[Fix] Settings 등 보조 창 포커스 시 Cmd+W가 그 창을 닫음 (이전엔 panel tab 닫힘)</li>
+                    <li>[Fix] X 버튼 close 무한 재귀 SIGSEGV crash 수정 (window.close() 사용)</li>
+                    <li>[Feature] Selection Toggle 모드: 클릭=focus만, 화살표=focus만(selection 보존), Space=toggle</li>
+                    <li>[Feature] TC식 focus indicator 외곽선 — selection과 분리, 겹쳤을 때 흰색/accent 자동 대비</li>
+                    <li>[Feature] [..] 행 focus indicator 숨김, 첫 키 입력 전엔 외곽선 안 그림</li>
+                    <li>[Fix] Cmd+D 핫리스트 종료 후 panel focus 복원 안정화</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 11 May 2026 14:50:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.16/QuaFinder-0.2.16.dmg"
+                sparkle:version="30"
+                sparkle:shortVersionString="0.2.16"
+                sparkle:edSignature="4PNFBSx6ksYx8pwCOwVO1DFDKWJh8u1r2Jtt+kFBQ9dOwGSuXm5F2YA/vyRWHoro2pHh1SGmnEPTl1fG5MttCw=="
+                length="8101439"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.15</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.15</h2>
