@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.20</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.20</h2>
+                <ul>
+                    <li>[Fix] ⌘F 검색: 열면 즉시 검색어 입력 가능 (포커스 타이밍 수정), ↑↓로 이동 / ↵ 위치 이동 / ⌘↵ 열기 / Esc 닫기 동작</li>
+                    <li>[UI] ⌘F 검색을 디렉토리 핫리스트(⌘D)와 같은 popdown 스타일로 통일 — 검색을 시작한 패널의 반대편 절반에 슬라이드다운(네비게이션 대상 패널은 안 가림), 화면 전체 어둡게 안 함, 결과 수에 따라 패널 높이까지 가변</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 12 May 2026 18:35:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.20/QuaFinder-0.2.20.dmg"
+                sparkle:version="34"
+                sparkle:shortVersionString="0.2.20"
+                sparkle:edSignature="ip54y4UzhOn9JpWSXJVtoTEmXgjz38yQDBkKt6ANA2awd6FboOhK2J45F2fMvA8yadAJSiRQpJVXzxSi/5mzAA=="
+                length="8023834"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.19</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.19</h2>
