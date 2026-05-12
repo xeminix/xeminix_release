@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.19</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.19</h2>
+                <ul>
+                    <li>[Fix] SMB/AFP 등 네트워크 볼륨에서 삭제가 실패하던 문제 — 휴지통이 없는 볼륨은 영구 삭제로 처리하고, 삭제 확인 대화상자에 "영구 삭제됩니다" 경고 표시</li>
+                    <li>[Feature] 폴더를 선택하면 "크기" 컬럼에 폴더 크기를 표시 (백그라운드로 재귀 계산, 끝나면 "--" → 실제 크기). 상태 바 선택 합계에도 반영. 한 번에 30개 초과 선택 시는 ⌃= "폴더 크기 계산" 명령 사용</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 12 May 2026 18:05:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.19/QuaFinder-0.2.19.dmg"
+                sparkle:version="33"
+                sparkle:shortVersionString="0.2.19"
+                sparkle:edSignature="iF74wpDgrq44qZrMTM6DVXcFTPH/g3odTdfogNQ5UWD50xW/hz2DKD4Vz2ofdSWok+nsJps+xpVLS0/sHHHqDA=="
+                length="8024664"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.18</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.18</h2>
