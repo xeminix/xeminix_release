@@ -6,6 +6,31 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.18</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.18</h2>
+                <ul>
+                    <li>[Fix] 단축키 커스터마이징이 실제로 동작 — 복사/이동/보기/편집/이름변경/새 폴더/삭제(F1~F12 포함) 메뉴 단축키가 설정을 읽고 즉시 반영, 하단 F-key 바 라벨도 변경에 따라 갱신</li>
+                    <li>[Feature] 단축키 에디터에 뒤로(⌘[)/앞으로(⌘])/홈(⌘⇧H)/패널 전환(Tab) 추가, "숨김 파일" 메뉴 항목 추가</li>
+                    <li>[Fix] 단축키 기본값 정정 — 새 폴더 = F7, 삭제 = F8, 상위 폴더 = ⌫ (에디터 표시가 실제 동작과 일치)</li>
+                    <li>[Change] 단축키 에디터에서 Quick Look(Space)·열기(Enter) 행 제거 — 이건 일반 설정의 Space/Enter 동작 토글이 결정 (리매핑 대상 아님)</li>
+                    <li>[Feature] 정렬: "폴더를 항상 위에 표시" 옵션 (일반 → 레이아웃). 끄면 폴더와 파일이 정렬 기준대로 섞여서 정렬됨 (예: 수정일 정렬 시 함께)</li>
+                    <li>[UI] 활성 패널 구분 강화 — 비활성 패널 디밍 + 활성 패널 경로 바 액센트 틴트·언더라인 (레트로 컬러 바 대신)</li>
+                    <li>[Feature] 압축 파일 열기 동작 선택 (일반 → 기본 앱): QuaFinder에서 풀기(기본, 같은 폴더에 하위폴더로) / 지정 앱으로 열기 / 시스템 기본</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 12 May 2026 17:40:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.18/QuaFinder-0.2.18.dmg"
+                sparkle:version="32"
+                sparkle:shortVersionString="0.2.18"
+                sparkle:edSignature="4ijwTXnS/uD+/g9kKnidSxmv1qvBPzEPvYY2G1OJPOumRomAedent3P4k4uSfuR7hExBN0krKu2W9RnKzP4iDA=="
+                length="8011066"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.17</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.17</h2>
