@@ -3,6 +3,22 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
+            <title>1.2.2</title>
+            <pubDate>Tue, 12 May 2026 14:00:00 +0900</pubDate>
+            <link>https://github.com/xeminix/inputSourceHUD</link>
+            <sparkle:version>122</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.2.2
+
+- 입력소스 전환 직후 키 입력 간섭 완화 (HUD 윈도우 재사용 + 표시 deferral)
+- HUD 오버레이가 마우스 입력을 가로채지 않음
+- AX focused-application 조회에 타임아웃 추가 — 응답 느린 앱이 메인 스레드를 막지 않음
+- force 정책 재강제 시 HUD를 띄우지 않음 (백그라운드 보정 — Safari 탭 전환 등에서 깜빡임 제거) + 앱별 쿨다운 추가
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.2.2/InputSourceHUD.dmg" length="4153755" type="application/octet-stream" sparkle:edSignature="+CezOhR5efz4AOW6isvhOwfmdzbZQDsaD9ZGyO3TisFw1h0H3aNlvxm1UaaGAhevZHmcMdZa9UBHOlQxUQJpDA=="/>
+        </item>
+        <item>
             <title>1.2.1</title>
             <pubDate>Wed, 29 Apr 2026 09:00:00 +0900</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
