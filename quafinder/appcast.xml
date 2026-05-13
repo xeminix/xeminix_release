@@ -6,6 +6,25 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.23</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.23</h2>
+                <ul>
+                    <li>[Feature] Esc로 패널의 모든 선택 한 번에 해제 (Selection Toggle 모드에서 Space로 여러 개 선택한 뒤 Esc 한 번). overlay/필터가 활성이면 그쪽이 먼저 잡으니 충돌 없음 — overlay·필터 닫힌 뒤 Esc부터 selection 해제</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 13 May 2026 11:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.23/QuaFinder-0.2.23.dmg"
+                sparkle:version="37"
+                sparkle:shortVersionString="0.2.23"
+                sparkle:edSignature="yEByJU4Oi8AEIi5/kTk4W8a4+tr/Mvoi3CZp+E8hLiTnMLcDSs8Q8Te3jtEl+uFH1A0dT+v8SXLfAPI4dgLNDw=="
+                length="8038823"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.22</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.22</h2>
