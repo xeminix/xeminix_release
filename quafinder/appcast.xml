@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.21</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.21</h2>
+                <ul>
+                    <li>[Feature] 설정 창 크기 조정 가능 — 모서리/가장자리 드래그로 크기를 늘릴 수 있음 (Window scene으로 전환)</li>
+                    <li>[Feature] 설정 → 일반 → "권한"에 전체 디스크 접근(Full Disk Access) 상태 표시 — 안 돼 있으면 "시스템 설정에서 허용…" / "QuaFinder 재시작" 버튼. FDA를 켜면 문서/데스크탑/다운로드 폴더 접근 프롬프트가 더 이상 뜨지 않음</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 13 May 2026 09:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.21/QuaFinder-0.2.21.dmg"
+                sparkle:version="35"
+                sparkle:shortVersionString="0.2.21"
+                sparkle:edSignature="UmPhBtT8vmBStNqAZaWtYfjCka0cRxCzkNwj8emM1NQP98TBY23/MPUExjgKzxx4lyUDkcG+S6iX6x5QkyknAg=="
+                length="8039557"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.20</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.20</h2>
