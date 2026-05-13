@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.22</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.22</h2>
+                <ul>
+                    <li>[Fix] Page Up/Page Down/Home/End으로 포커스를 이동할 때 테이블 선택·스크롤·포커스 외곽선이 따라가지 않던 문제 — `focusedIndex`만 바뀌고 `syncSelection`/`scrollToFocused`가 빠져 있던 걸 공통 `moveFocus(to:items:)` 헬퍼로 정리</li>
+                    <li>[Fix] 첫 실행 시 전체 디스크 접근(FDA) 안내 다이얼로그가 실제론 안 뜨던 문제 — `isReadableFile(~/Library/Safari)`는 POSIX 권한만 체크해서 FDA가 꺼져 있어도 "있음"으로 답함. TCC 인지 프로브(`FullDiskAccess.isGranted`)로 통일</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 13 May 2026 10:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.22/QuaFinder-0.2.22.dmg"
+                sparkle:version="36"
+                sparkle:shortVersionString="0.2.22"
+                sparkle:edSignature="3kE8va0nJ87s6ydLtXIDtodVP1MUTyuR/WBcJR80ScyTffYCLqXrbtq3uROEHF1P5BlScIGsXIb423J4vM+3Dw=="
+                length="8038632"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.21</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.21</h2>
