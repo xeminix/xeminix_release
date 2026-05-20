@@ -22,7 +22,7 @@
 ## 시스템 요구사항
 - macOS 14.0 (Sonoma) 이상
 ]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/tuckbar-v0.3.0/TuckBar.dmg" length="3867568" type="application/octet-stream" sparkle:edSignature="ibUpK50yEDSkX84g7QTcLLNYMZJig7Xf/2agI50UU0BbKjCYAzIcVYoMt65JixEZV3ds8YT7hlDPzUJBBjJZBA=="/>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/tuckbar-v0.3.0/TuckBar.dmg" length="3867568" type="application/octet-stream" sparkle:edSignature="jYp9z6bzXqdxp2fxaSXvsgM5Fn1BUQDR3xLE1ErSdfrgnWtUF+ak3CsolPYVDn4yVmNYW62s8uXd4XfLdb/OAA=="/>
         </item>
         <item>
             <title>0.2.0</title>
