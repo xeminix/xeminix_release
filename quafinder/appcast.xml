@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.26</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.26</h2>
+                <ul>
+                    <li>[Fix] 재실행 시 설정 창만 뜨고 메인 파일매니저 창이 안 나오던 문제 — Settings Window scene에 .defaultLaunchBehavior(.suppressed) + .restorationBehavior(.disabled) 적용. 이제 설정 창은 ⌘,로만 열림</li>
+                    <li>[Feature] 사이드바 섹션(즐겨찾기/최근/태그/볼륨/클라우드) 순서 변경 가능 — 설정 → 사이드바에서 각 행의 ↑/↓ 버튼으로 재정렬, sidebarSectionOrder에 저장</li>
+                    <li>[Change] 최소 macOS 버전 14.0 → 15.0 (.defaultLaunchBehavior API 사용을 위해)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 20 May 2026 18:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.26/QuaFinder-0.2.26.dmg"
+                sparkle:version="40"
+                sparkle:shortVersionString="0.2.26"
+                sparkle:edSignature="V8CcTXjk53caWrDA9LhEDhpUKdLIMnEb3MtOjhkpUQ41sZz2kKTzOGjD0AnO5BeuO8TtxFwlBU/CQeYBnX/WBQ=="
+                length="8050374"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.25</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.25</h2>
