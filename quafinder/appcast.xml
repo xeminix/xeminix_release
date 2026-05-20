@@ -6,6 +6,28 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.24</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.24</h2>
+                <ul>
+                    <li>[Fix] USB/외장 볼륨을 추출하면 그 안에 있던 패널·탭이 "접근 권한이 없습니다" 상태로 멈춰서 못 쓰던 버그 — 사이드바 eject가 양쪽 패널을 보호하고, NSWorkspace.didUnmountNotification 리스너로 외부 eject/하드웨어 제거 시에도 모든 탭이 자동으로 home으로 이동</li>
+                    <li>[Fix] 현재 탭에서 외부로 파일이 생기거나 사라져도 자동으로 안 보이고 새로고침해야만 나오던 문제 — panelContainer가 panel.generation을 관찰하게 해서 DirectoryMonitor 변경 감지 시 NSViewControllerRepresentable의 updateNSViewController가 제대로 발화되도록</li>
+                    <li>[Fix] 사이드바 "최근 항목" 섹션이 처음에 안 보이다 설정을 한 번 열고 나서야 나타나던 버그 — SidebarView에서 RecentLocations를 @Bindable로 받아 Observation 추적이 항상 동작하게</li>
+                    <li>[UI] 설정 창 기본 크기 1100×640, 최소 너비 1000 — 한글 라벨 8개 탭이 한 줄에 다 보이고 ">>" 오버플로 안 뜸</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 20 May 2026 14:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.24/QuaFinder-0.2.24.dmg"
+                sparkle:version="38"
+                sparkle:shortVersionString="0.2.24"
+                sparkle:edSignature="ribCZDEcpX3xH10g00U+XuKTNXQnV+VzAo83P41Xad7kpRnov5z/lySbxju7mucY2xDrOBnNDsKU3Hiog5InDA=="
+                length="8044574"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.23</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.23</h2>
