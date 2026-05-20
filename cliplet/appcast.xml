@@ -6,6 +6,36 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.8</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.2.8</h2>
+                <p>JavaScript 잠금 해제 UX 전면 개편 — 토글, 영구 상태 표시, 차단 페이지에서도 동작.</p>
+                <ul>
+                    <li><b>아이콘이 ON/OFF 텍스트 배지로 명시 표시</b>. lock-open 그래픽 대신 현재 상태가 한 눈에 보임.</li>
+                    <li><b>토글 동작</b>: OFF 클릭 → unlock + ON. ON 클릭 → 페이지 새로고침으로 사이트 원본 잠금 복원 → OFF.</li>
+                    <li><b>영구 ON 상태</b>: 같은 브라우저에서 5분 이내면 패널 닫고 다시 띄워도 ON 유지. 재클릭 불필요.</li>
+                    <li><b>차단된 페이지 지원</b>: JS 차단으로 드래그/copy 불가한 페이지에서도 Shift+Shift 수동 호출 시 JS Unlock 버튼만 띄움 — 잠금 해제 entry-point 확보.</li>
+                    <li><b>Comet 등 모든 Chromium 브라우저 지원</b>: Apple Events JavaScript 차단 에러를 한국어/영어 모두 인식 → 정확한 안내 분기.</li>
+                    <li><b>브라우저 설정 + Cliplet Help 동시 열기</b>: Apple Events JS 차단 감지 시 해당 브라우저 활성화 + Settings → Help 탭 자동 표시 → 가이드 보며 즉시 설정 변경 가능.</li>
+                    <li><b>Settings → Help 탭 신설</b>: JS Unlock / 맞춤법 / 우편번호 / DeepL 설정 가이드 일목요연 정리.</li>
+                    <li><b>지원 브라우저 확장</b>: Safari, Safari TP, Chrome (Stable/Beta/Canary/Dev), Brave, Edge, <b>Comet</b>.</li>
+                    <li>실패 hint에 주황색 "잠금 해제 실패 —" prefix — 실패 상태가 한 눈에 인지됨.</li>
+                    <li>HintPanel 외곽 흰 선 제거 — 밝은 배경에서 떠보이던 ring 해소.</li>
+                    <li>iframe 재귀 unlock + capture-phase 리스너 + MutationObserver로 동적 차단 무력화.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 20 May 2026 18:45:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.2.8/Cliplet-0.2.8.dmg"
+                sparkle:version="13"
+                sparkle:shortVersionString="0.2.8"
+                sparkle:edSignature="qUufi8/YhJTvArWHusOZFRfn9pl+YfiIKOGF8a9gSsbMysIhgeBaPYejBrV1QbHz2tKMrmJIfY1I2vCL18B3BQ=="
+                length="4292481"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.7</title>
             <description><![CDATA[
                 <h2>Cliplet v0.2.7</h2>
