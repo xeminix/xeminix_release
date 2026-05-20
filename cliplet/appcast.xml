@@ -6,6 +6,26 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.5</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.2.5</h2>
+                <ul>
+                    <li><b>Sparkle 자동 업데이트 안정화</b> — appcast fetch에 per-request cache-busting 파라미터 추가. raw.githubusercontent.com CDN 캐시 (~5분) 때문에 "이미 최신 버전" 메시지가 잘못 뜨던 문제 해결. 이번 버전 이후로는 새 릴리즈가 즉시 감지됩니다.</li>
+                    <li>v0.2.4의 모든 변경사항 포함 (Apple Events 엔타이틀먼트, JS Unlock 보강 등) — v0.2.4를 못 받으셨다면 이 빌드로 한 번에 업데이트됩니다.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 20 May 2026 16:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.2.5/Cliplet-0.2.5.dmg"
+                sparkle:version="10"
+                sparkle:shortVersionString="0.2.5"
+                sparkle:edSignature="wnss68Pa6+HtT/yOAaSvSuMdvq9Ytkua6Iq5IwGjfkjYqgoFY/QjSE3LNsvy2yKCCHcYZVbPGcm2n4180AcMDw=="
+                length="4211967"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.4</title>
             <description><![CDATA[
                 <h2>Cliplet v0.2.4</h2>
