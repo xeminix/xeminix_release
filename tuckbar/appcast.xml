@@ -3,6 +3,28 @@
     <channel>
         <title>TuckBar</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Wed, 20 May 2026 15:11:56 +0900</pubDate>
+            <link>https://github.com/xeminix/TuckBar</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# TuckBar 0.3.0
+
+## 새 기능: 다중 선택 + 다중 파일 드래그
+
+- **네이티브 다중 선택**: 클릭, Cmd+클릭, Shift+클릭, 드래그 범위 선택
+- **다중 파일 드래그 아웃**: 선택된 모든 파일을 한번에 Finder로 드래그
+- **실시간 드래그 하이라이트**: 러버밴드 선택 중 아이템 즉시 하이라이트
+- **NSCollectionView 기반**: SwiftUI에서 AppKit으로 전환하여 안정성 향상
+- 리스트/그리드 모드 동일하게 지원
+
+## 시스템 요구사항
+- macOS 14.0 (Sonoma) 이상
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/tuckbar-v0.3.0/TuckBar.dmg" length="3867568" type="application/octet-stream" sparkle:edSignature="ibUpK50yEDSkX84g7QTcLLNYMZJig7Xf/2agI50UU0BbKjCYAzIcVYoMt65JixEZV3ds8YT7hlDPzUJBBjJZBA=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Fri, 25 Apr 2026 15:26:00 +0900</pubDate>
             <link>https://github.com/xeminix/TuckBar</link>
