@@ -6,6 +6,32 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.6</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.2.6</h2>
+                <p>플러그인 컨텍스트 인식 — 작동 안 하는 환경에선 버튼 자체가 안 보이게.</p>
+                <ul>
+                    <li><b>JS Unlock</b>: 현재 frontmost가 Safari/Chrome 계열이 아니면 버튼 자체 숨김. 지원 브라우저 확장 — Safari Technology Preview, Chrome Canary/Beta/Dev, Brave Browser, Microsoft Edge 추가.</li>
+                    <li><b>JS Unlock</b>: Safari의 "Allow JavaScript from Apple Events" 옵션이 꺼져있을 때 별도로 감지해서 정확한 활성화 경로 안내 (전엔 "Safari/Chrome에서만 동작" 으로 잘못 표시).</li>
+                    <li><b>JS Unlock</b>: scriptError와 unsupportedBrowser 메시지 분리 — 같은 안내 텍스트로 가려졌던 문제 해결. unsupported 메시지엔 실제 앱 이름 포함.</li>
+                    <li><b>Markdown 변환</b>: 클립보드에 HTML 플레이버 없으면 버튼 자체 숨김 — 무의미한 plain→plain 복사로 사용자 혼동 방지.</li>
+                    <li><b>DeepL</b>: DeepL.app 미설치 시 웹 fallback에 hint 추가 — "DeepL.app 미설치, 웹 번역기 열림, ⌘V로 붙여넣기" 안내.</li>
+                    <li><b>Wrap in Table</b>: 빈 텍스트 선택 시 버튼 숨김 — 빈 테이블 생성 방지.</li>
+                    <li>플러그인 프로토콜에 `isAvailable(for:)` 도입 — 환경 조건(frontmost 앱, 클립보드 플레이버, 동반 앱 설치)으로 게이팅. v0.2 외부 플러그인 포맷의 seed.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 20 May 2026 17:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.2.6/Cliplet-0.2.6.dmg"
+                sparkle:version="11"
+                sparkle:shortVersionString="0.2.6"
+                sparkle:edSignature="vyMB4z8Md76cUoXE80ZiSEf4P2FU1H9ZuvBoOwuooEmTuU3HFxs2qGiv+tQtsSDoP5Df/HkZEnk4SgwZj6FkBg=="
+                length="4242962"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.5</title>
             <description><![CDATA[
                 <h2>Cliplet v0.2.5</h2>
