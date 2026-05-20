@@ -6,6 +6,26 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.7</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.2.7</h2>
+                <ul>
+                    <li>JS Unlock 실패 메시지에 <b>주황색 "잠금 해제 실패 —" prefix</b> 추가 — 이전 메시지가 "이렇게 설정하세요" 형태로 시작해서 사용자가 "이미 됐는지 vs 아직인지" 헷갈리던 문제 해결. 실패 케이스 4종(unsupported / automation denied / Safari JS off / script error) 모두 prefix 통일.</li>
+                    <li>메시지 내용 다듬기 — 모든 실패 메시지에 "다시 시도해주세요" 명시.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 20 May 2026 18:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.2.7/Cliplet-0.2.7.dmg"
+                sparkle:version="12"
+                sparkle:shortVersionString="0.2.7"
+                sparkle:edSignature="yhHw8raTRf/VjAcinUV+/oQt3C0Zd+dKI2iLpy53NhL4lxBbM9y1kRI5bEPxOAzJFjxnKPCHUn7lWX/nhguFCQ=="
+                length="4243809"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.6</title>
             <description><![CDATA[
                 <h2>Cliplet v0.2.6</h2>
