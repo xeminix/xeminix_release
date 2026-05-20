@@ -6,6 +6,28 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.25</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.25</h2>
+                <ul>
+                    <li>[Fix] 설정 → 권한의 "전체 디스크 접근" 상태가 FDA를 켜놨는데도 항상 "허용 안 됨"으로 표시되던 문제 — 시스템 TCC.db(SIP 추가 보호로 FDA만으론 못 읽음) 대신 사용자 TCC.db 프로브로 교체</li>
+                    <li>[Fix] 사이드바 "최근 항목"이 사이드바·breadcrumb·핫리스트 등으로 이동할 땐 안 채워지던 문제 — folderVisited 노티를 PanelState.navigateTo가 직접 post해 모든 이동 경로 추적</li>
+                    <li>[Feature] 사이드바 최근 파일: 단일 클릭 → 폴더 진입 + 그 파일에 포커스 / 더블클릭 → 시스템 연결 앱으로 열기</li>
+                    <li>[Feature] 사이드바 최근 항목 중 삭제·이동된 파일/폴더는 흐리게 표시(아이콘도 ?-마크), 클릭 시 자동으로 목록에서 제거 + HUD 안내</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 20 May 2026 16:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.25/QuaFinder-0.2.25.dmg"
+                sparkle:version="39"
+                sparkle:shortVersionString="0.2.25"
+                sparkle:edSignature="NBQQspcxpNbwL4pUJAxrmISkjEdiq/5K7drZDE7wIftu7iTkUaVAOUhsLbIIe441CoS1yXp2R4B5IOdk7E8YCQ=="
+                length="8052861"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.24</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.24</h2>
