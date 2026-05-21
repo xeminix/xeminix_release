@@ -6,6 +6,32 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.27</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.27</h2>
+                <ul>
+                    <li>[Feature] 우상단 진행률 인디케이터 + 디테일 popover — 복사·이동·삭제·압축·해제가 모두 백그라운드로 돌고 도넛이 실시간으로 채워짐. 클릭하면 작업별 행에 현재 파일·진행 바이트·MB/s 속도 표시, 취소 버튼 포함. 큰 파일/폴더 작업 중에도 UI freeze 없음(예전엔 무지개 커서)</li>
+                    <li>[Feature] 작업 완료 효과음 — 성공: Glass / 실패: Basso (취소는 무음). 설정 → 일반 → "파일 작업 → 작업 완료 시 효과음"에서 토글</li>
+                    <li>[Feature] 빈 공간 우클릭 컨텍스트 메뉴 — 붙여넣기 / 새 폴더 / Finder에서 이 폴더 보기 / 이 폴더를 터미널에서 열기 (붙여넣기는 클립보드에 파일이 있을 때만 활성)</li>
+                    <li>[Fix] Cmd+A 후 우클릭 시 multi-selection이 풀리고 클릭한 한 파일만 남던 문제 — NSTableView·NSCollectionView의 selectAll(_:)을 view controller로 forward하도록 override. menuNeedsUpdate도 panelState.selectedItems 기준으로 collapse 판단</li>
+                    <li>[Fix] Cmd+A로 [..] 상위 폴더 링크까지 선택되어 압축·삭제 시 상위 폴더가 같이 처리되던 문제 — selectAll에서 isParentLink 제외</li>
+                    <li>[Fix] 다중 파일 압축에서 폴더 하나만 들어가던 버그 — ArchiveManager.compress의 defer 위치가 잘못되어 ditto 호출 전에 tempDir가 삭제되던 문제. defer를 함수 스코프로 옮기고, ditto → /usr/bin/zip으로 전환해 tmp-uuid 래퍼 없이 평평한 zip 구조로 변경</li>
+                    <li>[Change] 압축 파일 이름 정규화 — 단일 선택: "&lt;파일명&gt;.zip" / 다중 선택: "&lt;현재폴더이름&gt;.zip"(root에서는 "Archive.zip" 폴백)</li>
+                    <li>[Fix] 잘라내기→붙여넣기에서 "Invalid argument" 에러 — copyfile(COPYFILE_MOVE)가 same-volume에서 EINVAL 반환하는 케이스. rename(2) 우선 → 실패 시 copy+remove fallback 패턴으로 교체</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 21 May 2026 16:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.27/QuaFinder-0.2.27.dmg"
+                sparkle:version="41"
+                sparkle:shortVersionString="0.2.27"
+                sparkle:edSignature="flqsspUvu6JU27be/icTfmfKcUnm9GAXdgYyUrB1Js8S1JmYRGl315soXJLf4XPSvmzVfvBpPW1VL7uXheLjBg=="
+                length="8332567"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.26</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.26</h2>
