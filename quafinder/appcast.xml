@@ -6,6 +6,33 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.28</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.28</h2>
+                <ul>
+                    <li>[Feature] ⌘⇧G "폴더로 이동" 시트 — Finder 스타일 path 입력 + 실시간 자동완성. 빈 입력 시 최근 폴더 history(영구 저장, 30개) 표시. 키보드 네비게이션 ↑↓ / PageUp·Down / Home·End / Tab 자동완성</li>
+                    <li>[Feature] 메뉴 컨셉 정리 — 10개 → 7개 상위 메뉴. macOS 표준(파일/편집/보기/이동/도구/윈도우/도움말) 안으로 모든 항목 흡수, 중복 메뉴 제거</li>
+                    <li>[Feature] Outlook · Mail · Slack · Notes 등의 첨부파일 드래그-드롭 지원 — `NSFilePromise` receiver 추가</li>
+                    <li>[Fix] Outlook 첨부 드래그 시 `@MainActor` isolation 위반으로 SIGTRAP crash 나던 문제 — promise completion closure에 `@Sendable` 명시</li>
+                    <li>[Fix] ⌘⇧G에서 파일이 많은 폴더(예: ~/Downloads의 440개 파일 + 20개 하위폴더) 입력 시 하위 폴더가 0개로 보이던 버그 — 디렉토리 필터를 sort+prefix(50) 이전으로 옮김</li>
+                    <li>[Fix] ⌘⇧G에서 trailing `/` 입력 시 그 폴더의 *내용*이 아니라 *형제 폴더*들이 매치되던 버그 — `NSString.expandingTildeInPath`가 trailing slash 제거하는 동작 보정</li>
+                    <li>[Change] `RecentLocations` UserDefaults에 영구 저장 — 앱 재시작 후에도 최근 폴더 유지. 5개 → 30개 (사이드바는 8개로 cap)</li>
+                    <li>[Internal] `PathExpansion` 모듈 분리 + 유닛 테스트 16개 + 디렉토리 listing 통합 테스트 4개. pre-push git hook으로 자동 실행</li>
+                    <li>[Internal] GitHub Actions에 codex 자동 PR 리뷰 추가 — Swift 6 concurrency / Swift↔C ABI / SwiftUI staleness 같은 유닛 테스트가 못 잡는 패턴 자동 감지</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 26 May 2026 15:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.28/QuaFinder-0.2.28.dmg"
+                sparkle:version="42"
+                sparkle:shortVersionString="0.2.28"
+                sparkle:edSignature="tC3zBAjsatQ7iK36rRkdoGJS58l0y2g2aa/muHYIC3ctn3ZSPsugH0N18qS0k0HREv3TA73kTbzixiqgJTU5BA=="
+                length="8402545"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.27</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.27</h2>
