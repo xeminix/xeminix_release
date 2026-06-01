@@ -3,6 +3,29 @@
     <channel>
         <title>TuckBar</title>
         <item>
+            <title>0.3.2</title>
+            <pubDate>Mon, 01 Jun 2026 18:16:00 +0900</pubDate>
+            <link>https://github.com/xeminix/TuckBar</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# TuckBar 0.3.2
+
+## 드래그 아웃 전면 개선
+
+- **첫 클릭-드래그 복원**: 창을 연 직후 선택하지 않고 바로 파일을 클릭-드래그해 꺼낼 수 있습니다
+- **복사/이동 토글**: 팝오버 하단에 복사/이동 전환 버튼 추가 (기본 복사 — 원본 보존)
+  - 복사: 원본을 유지한 채 목적지에 복사
+  - 이동: 목적지로 이동 (볼륨에 관계없이 동작)
+- 팝오버 안에서 드래그를 놓으면 항목이 유지됩니다
+- 드래그 중 항목이 사라지던 문제 수정
+
+## 시스템 요구사항
+- macOS 14.0 (Sonoma) 이상
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/tuckbar-v0.3.2/TuckBar.dmg" length="3869367" type="application/octet-stream" sparkle:edSignature="Raju442cVWno+3XKzeRUAoQ466P5FnX0guQ1GIwEW7fHIkr/KKnny3dZWkEGSM5tybKZztBEHf1VTw118HJRDg=="/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Mon, 01 Jun 2026 14:58:00 +0900</pubDate>
             <link>https://github.com/xeminix/TuckBar</link>
