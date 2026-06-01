@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.30</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.30</h2>
+                <ul>
+                    <li>[Feature] <strong>툴바 뒤로/앞으로 가기 개선</strong> — history 없을 때 비활성 상태 명확히 표시(dim), 클릭 시 pressed 배경 피드백, 길게 누르면(0.4s) Safari 스타일 history popover. 가장 최근 위치가 맨 위, 폴더명 + 부모 경로(~ 치환·5단계 초과 시 축약). hover 시 accent 색 highlight. popover 폭은 가장 긴 row 기준으로 자동 적응(200~440pt). 점프 시 건너뛴 위치들이 반대편 history로 옮겨가서 정반대 navigation 자연스럽게 동작.</li>
+                    <li>[Fix] <strong>Inline rename 중 키 입력이 panel 단축키에 빼앗기던 문제</strong> — 파일명 편집 모드에서 ⌘A가 텍스트 전체 선택이 아니라 panel 행 전체 선택으로, ⌘←/⌘→가 캐럿 이동이 아니라 panel sync로 가던 버그. Edit 메뉴에 macOS 표준 "전체 선택" 항목 복구(`CommandGroup(replacing: .pasteboard)`이 제거했던) + field editor가 first responder일 때 panel-level performKeyEquivalent 전체 우회. ⌘A/⌘←/⌘→/⌘W 모두 표준 텍스트 편집 동작으로 회귀.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 01 Jun 2026 17:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.30/QuaFinder-0.2.30.dmg"
+                sparkle:version="44"
+                sparkle:shortVersionString="0.2.30"
+                sparkle:edSignature="ByZhNwQC2Tn8CXMTzOdSSedq+iaWSkZLOQ7s0YDVNpVjmg7aXXY07H4Ac9zmuF/e00x13uS7C75IJZWldoamCQ=="
+                length="8323283"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.29</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.29</h2>
