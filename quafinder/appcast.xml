@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.29</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.29</h2>
+                <ul>
+                    <li>[Fix] <strong>CPU 폭주 핫픽스</strong> — 앱이 idle 상태에서 CPU 1코어를 계속 풀로 먹던 버그(115% 고정, 5일 이상 가동 시 발열·배터리·팬 소음). 원인: SwiftUI `@State`의 default 표현식 `TabState(...)`이 부모 body 재평가마다 평가되면서 `PanelState.init`의 부작용(kqueue open + Task.detached 디스크 읽기)이 ~7Hz로 반복 실행. 해법: PanelState 부작용을 `activate()`로 분리해서 `.onAppear`에서 1회만 실행. idle CPU 115% → 0%</li>
+                    <li>[Feature] <strong>Finder 스타일 "다른 앱으로 열기 ▸" 컨텍스트 메뉴</strong> — 우클릭 → 응용 프로그램 ▸ (설치된 전체 앱) / 실행 중 ▸ (현재 실행 중 앱) / 다음으로 열기… (chooser) / 추천 앱 목록 (기본 앱은 ✓ 표시). 각 항목에 16×16 앱 아이콘. 큰 메뉴는 lazy populate + 5분 캐시</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 01 Jun 2026 10:30:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.29/QuaFinder-0.2.29.dmg"
+                sparkle:version="43"
+                sparkle:shortVersionString="0.2.29"
+                sparkle:edSignature="4EugnC+Mqm+HYz9Mz0ooSDMSaKGRFqzVEmaF0b1CMtNIlvN8EOJ7eMmINhDEP5k8rWvw9SrDt8P5Jd8ncA5ACw=="
+                length="8274700"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.28</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.28</h2>
