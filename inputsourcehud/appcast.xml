@@ -3,6 +3,22 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
+            <title>1.2.3</title>
+            <pubDate>Mon, 01 Jun 2026 17:00:00 +0900</pubDate>
+            <link>https://github.com/xeminix/inputSourceHUD</link>
+            <sparkle:version>123</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.2.3
+
+- 앱별 규칙에 **Ignore** 정책을 빠르게 지정할 수 있는 UI 추가
+  - Settings → Apps 탭 Quick Assign에 "Ignore" 버튼
+  - 메뉴바 "Add Rule for <앱>" 서브메뉴에 "Ignore" 항목
+- Ignore 정책 앱은 글로벌 기본 입력 소스가 자동 적용되지 않아 macOS의 "문서별 입력소스 기억" 기능과 충돌하지 않음
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.2.3/InputSourceHUD.dmg" length="4157169" type="application/octet-stream" sparkle:edSignature="HFksvxXBv0pc+ee7OLXPNgnOOr0SoZAOIEAJpHtWcwTlYDI1Up77GmUWz9vfgbBXXsF2BXWnZHcYzOzCjMNSAA=="/>
+        </item>
+        <item>
             <title>1.2.2</title>
             <pubDate>Tue, 12 May 2026 14:00:00 +0900</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
