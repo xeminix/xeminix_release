@@ -6,6 +6,25 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.31</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.31</h2>
+                <ul>
+                    <li>[Fix] <strong>폴더 이동 후 type-ahead 검색 텍스트가 그대로 남던 문제</strong> — 패널에서 타이핑해서 quick search 가 활성화된 상태로 폴더를 이동(Enter/더블클릭/사이드바/back-forward/태그 토글)하면 입력한 글자가 새 디렉토리에도 그대로 적용되어 stale filter 가 걸리거나 status bar 에 빈 매칭 상태가 남던 버그. 모든 directory context-switch 경로(navigateTo, goBack/goForward steps, browseTag, exitTagBrowse, updatePanelState)에서 PanelState 의 filterText/quickSearchText 와 controller 의 type-ahead buffer + shift-selection anchor + IME composition 일괄 reset. Finder/Path Finder/TC 와 동일한 표준 동작으로 회귀.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 09 Jun 2026 14:50:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.31/QuaFinder-0.2.31.dmg"
+                sparkle:version="45"
+                sparkle:shortVersionString="0.2.31"
+                sparkle:edSignature="lH2gGHYC3S2DrP6LvPjqbQWEm4su9d5RsBIyA5YGxcUU3omVtygZg20q1+qSTz3W/sskTbDe/8daP0/F2wW4DQ=="
+                length="8325751"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.30</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.30</h2>
