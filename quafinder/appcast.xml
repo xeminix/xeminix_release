@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.32</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.32</h2>
+                <ul>
+                    <li>[Fix] <strong>.app 등 패키지를 더블클릭/Enter 시 진입이 아니라 실행하도록</strong> — /Applications 등에서 .app 을 더블클릭하거나 Cmd+↓/Enter 로 열면 앱이 실행되지 않고 번들 내부 폴더로 진입하던 버그. macOS 패키지(.app/.bundle 등)는 디스크상 디렉토리지만 Launch Services 가 불투명한 문서로 취급 — 이제 더블클릭/Enter/Cmd+↓/검색 결과 열기 모두에서 정상 실행. 일반 폴더는 기존대로 진입.</li>
+                    <li>[Feature] <strong>우클릭 "패키지 내용 보기"</strong> — .app/.bundle 우클릭 시 Finder 스타일 "패키지 내용 보기" 항목으로 번들 내부를 탐색할 수 있음 (패키지에만 표시).</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 10 Jun 2026 09:20:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.32/QuaFinder-0.2.32.dmg"
+                sparkle:version="46"
+                sparkle:shortVersionString="0.2.32"
+                sparkle:edSignature="Cd/W3P4VjLuUrNJR1iidSB3pGOjSUwweUCoTxYZEmWOQ080bDir9Y2jh0c5fbCx2Y413GzJlk3F8cIEBSyb7CQ=="
+                length="8323287"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.31</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.31</h2>
