@@ -3,6 +3,30 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.15</title>
+            <pubDate>Mon, 15 Jun 2026 18:00:50 +0900</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.15
+
+## 버그 수정 (중요)
+
+### 시작 시 아이콘 배치 흔들림 / 숨김→표시 유출 수정
+- 앱 시작 시 간헐적으로 숨김 영역의 아이콘이 표시 영역으로 올라오거나, 아이콘들이 한참 동안 이리저리 이동하던 문제를 수정했습니다.
+- 원인은 시작 시점에 메뉴바 레이아웃이 완전히 자리잡기 전에 분류가 이루어져 모든 아이콘이 표시 영역으로 잘못 판정되던 것으로, 레이아웃이 안정된 뒤 분류하도록 바로잡았습니다.
+
+### 시작 속도 개선
+- 시작 시 아이콘 정렬에 걸리는 시간을 단축했습니다(불필요한 재정렬 제거 + 이동당 처리 비용 감소).
+
+### 멀티 디스플레이
+- 보조 모니터가 주 화면 왼쪽에 배치된 경우에도 아이콘 분류가 정상 동작하도록 개선했습니다.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.15/Barmover.dmg" length="4517165" type="application/octet-stream" sparkle:edSignature="TYiPV4BB3Gt2NP2/ZPIvQCu76QAtCHnHlUAJrW5f8Agm63hLVXvuZwhoVm6+bji7MrRsd/KpK3OFS1TRxP25Bg=="/>
+        </item>
+        <item>
             <title>1.0.14</title>
             <pubDate>Mon, 15 Jun 2026 16:23:55 +0900</pubDate>
             <link>https://github.com/xeminix/barmover</link>
