@@ -6,6 +6,29 @@
         <description>Cliplet Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.9</title>
+            <description><![CDATA[
+                <h2>Cliplet v0.2.9</h2>
+                <p>드래그 스크롤이 의도치 않게 자동 복사를 일으키던 문제 해결 + 잘라내기 수정.</p>
+                <ul>
+                    <li><b>스크롤이 더 이상 자동 복사(⌘C)를 유발하지 않음</b>. UltraEdit·Electron 등 AX 미지원 앱에서 검색 결과를 스크롤바로 끌면 텍스트 선택으로 오인해 ⌘C가 발사되어 창이 닫히던 문제 해결. Smart 모드는 마우스 드래그만으로는 ⌘C를 합성하지 않습니다.</li>
+                    <li><b>비-AX 앱은 Shift 더블탭으로 캡처</b>. AX로 선택을 못 읽는 앱(Chrome/Safari 웹페이지, Slack, Notion, Electron, UltraEdit)에서는 Shift를 두 번 눌러 명시적으로 호출합니다.</li>
+                    <li><b>"Always (항상 자동 복사)" 캡처 모드 제거</b>. 드래그와 스크롤을 구분할 수 없어 안전하지 않으므로 폐기 — 기존 사용자는 Smart로 자동 이관됩니다.</li>
+                    <li><b>잘라내기(Cut) 수정</b>. UltraEdit 등 외부 앱에서 잘라내기가 복사만 되고 삭제가 안 되던 문제 해결 — 소스 앱에 ⌘X를 전달합니다.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 29 Jun 2026 14:00:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/cliplet-v0.2.9/Cliplet-0.2.9.dmg"
+                sparkle:version="14"
+                sparkle:shortVersionString="0.2.9"
+                sparkle:edSignature="TepxUl17dKUAX4abS103YBfxg3r/3Yf+w+bXxCgsXHLvubyfMS3T4G65nbvTPNr5WNUrH0gtDd+uhWB+lCBzBQ=="
+                length="3807557"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.8</title>
             <description><![CDATA[
                 <h2>Cliplet v0.2.8</h2>
