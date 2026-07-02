@@ -6,6 +6,29 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.34</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.34</h2>
+                <ul>
+                    <li>[Fix] <strong>AirDrop 연타 시 중복 전송 방지</strong> — 사이드바 버튼/드래그드롭/우클릭 메뉴 어디서든 빠르게 여러 번 클릭하면 AirDrop 세션이 그만큼 생겨 수신자에게 파일이 중복 저장되던 버그. 2초 재진입 가드 + 전송 완료/실패 시 즉시 해제 — 대용량 전송 중에도 다른 파일 전송은 정상 동작.</li>
+                    <li>[Fix] <strong>여러 파일 드래그 시 전부 처리</strong> — 사이드바 AirDrop/공유 타겟에 파일 여러 개를 드롭하면 파일별로 개별 세션/피커가 뜨던 것을 URL 일괄 수집 후 한 번에 처리하도록 변경.</li>
+                    <li>[Fix] <strong>디렉토리 핫리스트(Cmd+D) 패널 위치</strong> — 왼쪽 패널에서 부르면 오른쪽에, 오른쪽에서 부르면 왼쪽에 뜨던 좌우 반전 버그 수정. 호출한 패널 위에 표시.</li>
+                    <li>[UI] <strong>핫리스트 배경 macOS 팝오버 블러</strong> — NSVisualEffectView(.popover, withinWindow) + maskImage 라운딩. SwiftUI Material이 AppKit 패널 위에서 블러되지 않는 하이브리드 구조 이슈를 정공법으로 해결.</li>
+                    <li>[Fix] <strong>한글 입력 상태에서 알림창 Enter 무반응</strong> — 삭제 확인 등 모든 확인 팝업에서 한글 IME가 Return을 가로채 기본 버튼의 keyEquivalent 매칭이 실패하던 버그. keyCode 기반 기본 버튼 발동으로 수정 (키패드 Enter 포함, 텍스트 입력 중엔 조합 커밋 우선).</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 02 Jul 2026 16:14:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.34/QuaFinder-0.2.34.dmg"
+                sparkle:version="48"
+                sparkle:shortVersionString="0.2.34"
+                sparkle:edSignature="GDmVNeHFN9ax9+wmZI4OhFsuGWGza+g6pDn5HnDSLI87yhWDC/yRiXlT3OhtC/9yi43Htc1smKWJuNGKc1ckBw=="
+                length="8490493"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.33</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.33</h2>
