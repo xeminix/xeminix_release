@@ -3,6 +3,23 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.17</title>
+            <pubDate>Tue, 07 Jul 2026 17:00:18 +0900</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.17
+
+## 개선
+
+### 시작 속도 개선
+- 앱 시작 시 아이콘 정렬 마무리 단계에서 불필요하게 중복되던 레이아웃 재계산을 제거해, 초기화 시간을 단축했습니다.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.17/Barmover.dmg" length="4519423" type="application/octet-stream" sparkle:edSignature="19y794ww0OnnrappQrw39ygQgvXoVeZCzhdolGCzFoE/MHW38di9bc9o+8D+TiS0DuapFEQzprj2UQGQmC23Dw=="/>
+        </item>
+        <item>
             <title>1.0.16</title>
             <pubDate>Fri, 03 Jul 2026 11:32:28 +0900</pubDate>
             <link>https://github.com/xeminix/barmover</link>
@@ -43,26 +60,6 @@
 - 보조 모니터가 주 화면 왼쪽에 배치된 경우에도 아이콘 분류가 정상 동작하도록 개선했습니다.
 ]]></description>
             <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.15/Barmover.dmg" length="4517165" type="application/octet-stream" sparkle:edSignature="TYiPV4BB3Gt2NP2/ZPIvQCu76QAtCHnHlUAJrW5f8Agm63hLVXvuZwhoVm6+bji7MrRsd/KpK3OFS1TRxP25Bg=="/>
-        </item>
-        <item>
-            <title>1.0.14</title>
-            <pubDate>Mon, 15 Jun 2026 16:23:55 +0900</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.14
-
-## 개선 사항
-
-### 시작 속도 개선
-- 앱 실행 후 아이콘 정렬이 안정화되는 시간을 크게 단축했습니다(약 20초 → 9초). 시작 시 불필요하게 아이콘을 여러 번 옮기던 동작을 최소화해, 메뉴바에서 커서가 움직이는 현상도 대폭 줄었습니다.
-
-### 안정성
-- 이미 올바른 순서인 아이콘은 다시 옮기지 않도록 개선해, 시작 시 배치 흔들림을 줄였습니다.
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.14/Barmover.dmg" length="4515049" type="application/octet-stream" sparkle:edSignature="6hVsAp/vDIoJQ6N1AEJ7u+L1SQzPtcJxJWwWBbWUOyrxKVEecn79vXHZZGDt1Q3xI3rBF3Sia5XAPTGftBJ8BA=="/>
         </item>
     </channel>
 </rss>
