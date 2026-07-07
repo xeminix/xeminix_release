@@ -6,6 +6,30 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.35</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.35</h2>
+                <ul>
+                    <li>[Feature] <strong>추가된 날짜 컬럼</strong> — Finder의 "추가된 날짜"(kMDItemDateAdded) 컬럼 신설. 오래된 파일을 방금 복사해 넣어도 수정일과 무관하게 "폴더에 들어온 시각" 기준으로 정렬/확인 가능. 헤더 클릭 정렬 + 보기 메뉴 정렬 항목.</li>
+                    <li>[Feature] <strong>헤더 우클릭 컬럼 메뉴 + 폴더별 컬럼 설정</strong> — 컬럼 헤더 우클릭으로 이름 외 모든 컬럼(크기/수정일/종류/추가된 날짜/메타데이터/권한) 표시·숨김. 토글은 현재 폴더에만 적용되어 폴더마다 다른 컬럼 구성 유지(Finder 보기 옵션 모델). 보기 메뉴 토글은 전역 기본값, "기본값으로 복원"으로 폴더 설정 제거.</li>
+                    <li>[Fix] <strong>QuickLook 재생 유지</strong> — m4a 등 미리보기 재생 중 파일 복사를 하면 패널 새로고침이 미리보기를 강제로 닫아 재생이 끊기던 버그. 미리보기 중인 파일이 그대로 있으면 패널을 건드리지 않도록 수정. 미리보기 열린 상태에서 F5 등 명령 키가 비프음 없이 동작(메뉴 keyEquivalent 라우팅).</li>
+                    <li>[Feature] <strong>rclone 클라우드 통합 (베타)</strong> — rclone이 설치되고 remote가 구성된 경우 사이드바 클라우드 섹션에 표시.</li>
+                    <li>[Feature] <strong>아카이브 가상 폴더 (베타)</strong> — zip 등 압축 파일을 더블클릭으로 폴더처럼 탐색, 항목 더블클릭 시 임시 추출 후 열기 (zip-slip 가드 포함).</li>
+                    <li>[Feature] <strong>EXIF/ID3 메타데이터 컬럼 (베타)</strong> — 크기(px)/재생 시간/카메라/오디오 컬럼과 정렬 (Spotlight 기반 지연 로딩).</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 07 Jul 2026 15:28:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.35/QuaFinder-0.2.35.dmg"
+                sparkle:version="49"
+                sparkle:shortVersionString="0.2.35"
+                sparkle:edSignature="K7lYgYmO6NBMQOJi2z61RPQdXfcT8gH31brOdJhKV06p6JcZU5CHhI9HzivO/7dHlKPKt/dvhV5ihbkGazWLBw=="
+                length="8667788"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.34</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.34</h2>
