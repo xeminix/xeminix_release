@@ -3,6 +3,21 @@
     <channel>
         <title>InputSourceHUD</title>
         <item>
+            <title>1.2.5</title>
+            <pubDate>Wed, 15 Jul 2026 09:12:02 +0900</pubDate>
+            <link>https://github.com/xeminix/inputSourceHUD</link>
+            <sparkle:version>125</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# InputSourceHUD 1.2.5
+
+- 앱 전환 직후 입력소스 정착 과정에서 HUD 표시 언어와 실제 입력 언어가 어긋나던 문제 수정
+- 입력소스가 순간적으로 튀는(flap) 상황을 정착 감지로 흡수 — 잘못된 언어가 잠깐 표시되던 현상 제거
+- 창 전환 시 HUD가 중복으로 뜨던 문제 제거
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/inputsourcehud-v1.2.5/InputSourceHUD.dmg" length="4507917" type="application/octet-stream" sparkle:edSignature="XSEriyUFE0+BvlYkg11tV1kcZqiQGX4IQ5VvO9XM0NFj6o1iyGUXIF1GSTJ3swuFLFbSZXgSbA8QglPywTLkCQ=="/>
+        </item>
+        <item>
             <title>1.2.4</title>
             <pubDate>Tue, 09 Jun 2026 17:58:37 +0900</pubDate>
             <link>https://github.com/xeminix/inputSourceHUD</link>
