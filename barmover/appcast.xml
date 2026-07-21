@@ -3,6 +3,38 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.21</title>
+            <pubDate>Tue, 21 Jul 2026 14:07:18 +0900</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.21
+
+## 아이콘 식별·배치 안정성 개선
+
+앱을 껐다 켜거나 새로 실행할 때 아이콘이 사라지거나 엉뚱하게 잡히던 문제들을 폭넓게 개선했습니다.
+
+### 앱을 재실행하면 그 아이콘이 사라지던 문제 수정
+- 앱을 종료했다 다시 실행하면, 그 앱의 메뉴바 아이콘이 표시 영역에도 숨김 영역에도 나타나지 않고 화면 밖으로 사라지던 문제를 수정했습니다.
+- 아이콘 식별이 아직 준비되지 않은 순간에는 아이콘을 함부로 옮기거나 숨기지 않고, 식별이 완료될 때까지 기다렸다가 정확히 배치하도록 했습니다.
+
+### 앱 재실행 시 아이콘이 다른 아이콘으로 잘못 인식되던 문제 수정
+- 앱을 재실행하는 과정에서 아이콘이 시스템 아이콘(제어 센터)으로 잘못 인식된 채 굳어버리던 문제를 수정했습니다. 잘못 인식된 경우 재실행 없이도 스스로 올바른 아이콘으로 복구합니다.
+
+### 여러 모니터를 사용할 때 아이콘 식별이 안 되던 문제 수정
+- 메뉴바가 주 모니터가 아닌 다른 모니터에 있을 때 아이콘 식별이 전혀 되지 않아, 아이콘들이 제대로 표시되지 않던 문제를 수정했습니다.
+
+### 메뉴바에서 옮긴 배치가 저장되지 않던 문제 수정
+- 메뉴바에서 Cmd+드래그로 아이콘을 옮겼을 때, 특정 순간에는 그 변경이 저장되지 않아 재시작하면 이전 배치로 돌아가던 문제를 개선했습니다. 준비가 될 때까지 자동으로 다시 시도해 변경 사항을 확실히 저장합니다.
+
+### 시작 시 아이콘 처리 개선
+- 앱 시작 시 이미 파악한 아이콘 정보를 불필요하게 다시 계산하지 않도록 하여, 새 아이콘이 나타나도 기존 아이콘들의 식별이 흔들리지 않습니다.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.21/Barmover.dmg" length="4580366" type="application/octet-stream" sparkle:edSignature="oGXalsBBC1kS5rE2W8UHi1uT9bobVwZdx0CqZQHbi80YQ3S3ZP8zPtqUnQcG4ouTRX2yyjzFswhAEa8ai0gzAA=="/>
+        </item>
+        <item>
             <title>1.0.20</title>
             <pubDate>Mon, 20 Jul 2026 09:32:42 +0900</pubDate>
             <link>https://github.com/xeminix/barmover</link>
@@ -50,23 +82,6 @@
 - 배치를 저장하는 순간 아이콘 식별을 다시 정확히 수행하도록 하고, 저장에 실패한 경우를 진단 로그로 남겨 원인을 추적할 수 있게 했습니다.
 ]]></description>
             <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.19/Barmover.dmg" length="4531095" type="application/octet-stream" sparkle:edSignature="PGdDsikZYDDtZ1evt+lhkVbrAwG2AONPyTqG9icsltkhBoOIz9fxXLcJenSJUeorWBb7WJo8vYHI+DCQvnrNCg=="/>
-        </item>
-        <item>
-            <title>1.0.18</title>
-            <pubDate>Wed, 15 Jul 2026 09:46:14 +0900</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.18
-
-## 내부 개선
-
-### 아이콘 식별 진단 로그 (배치 안정성 개선 준비)
-- 일부 앱 아이콘이 재시작 시 원래 위치로 복원되지 않는 문제의 원인을 파악하기 위해, 아이콘 식별 실패를 진단하는 로그를 추가했습니다. (앱 동작에는 영향 없음)
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.18/Barmover.dmg" length="4529327" type="application/octet-stream" sparkle:edSignature="qR6KvOsA3sGAW4bsYWOYiU1y9agQ/kbsb5FdeNrtZYcSjnGy5hG6ZYfynRKdp/jIg1vXspGMYyc0HIVQPNY6Cg=="/>
         </item>
     </channel>
 </rss>
