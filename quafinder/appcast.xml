@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.37</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.37</h2>
+                <ul>
+                    <li>[Feature] <strong>Quick Search 일치 항목 전체 표시</strong> — 입력하면 일치하는 <em>모든</em> 파일을 노란색으로 강조하고, 하단에 "현재/전체" 개수를 표시. <strong>↑/↓</strong>로 일치 항목 사이를 이동하고, 오른쪽 세로 레일에 화면 밖 일치 위치까지 한눈에 표시. (기존엔 첫 일치 하나로만 커서가 이동해 나머지가 무엇인지 알 수 없었음. 목록·아이콘 보기 모두 지원.)</li>
+                    <li>[Fix] <strong>⌘F 검색창 위치 수정</strong> — 검색창이 활성 패널이 아닌 <em>반대편</em> 패널 위로 내려오던 문제 수정. 검색창과 디렉토리 핫리스트가 동일한 패널 앵커링 정책을 공유하도록 통일.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 24 Jul 2026 18:18:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.37/QuaFinder-0.2.37.dmg"
+                sparkle:version="51"
+                sparkle:shortVersionString="0.2.37"
+                sparkle:edSignature="3wN4nn1t4TnsEMAB3y/H/wrSXBQNheH3yhURWH2VTiememH5inQoiv7IZ7qJmgvp5V8X4GtXHeah8F4ONPpXDg=="
+                length="8724891"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.36</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.36</h2>
