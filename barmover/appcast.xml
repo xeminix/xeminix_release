@@ -3,6 +3,22 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.22</title>
+            <pubDate>Mon, 10 Aug 2026 10:22:44 +0900</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.22
+
+- 실행 중 새로 켠 메뉴바 앱이 바로 표시되지 않던 문제 수정 — 일부 앱(예: LinearMouse)이 앱을 재시작하기 전까지 메뉴바에 누락되던 현상을 해결했습니다.
+- 숨긴 아이콘이 경계에서 잠깐 화면에 보이거나 [숨김]↔[표시]로 깜빡이던 문제 수정 — 표시/숨김 판정 기준을 하나로 통일했습니다.
+- 앱/시스템 재시작 직후 숨긴 아이콘이 잠시 노출되던 시간을 대폭 단축했습니다.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.22/Barmover.dmg" length="4596984" type="application/octet-stream" sparkle:edSignature="OsPhQ/mEMi9mdMMmO1yr18F84UHRlgSlS9ujF4oB7AFFnvEARp3wL64iGw7LSUYMpiNKRuAmnyojq3r1OhtoAA=="/>
+        </item>
+        <item>
             <title>1.0.21</title>
             <pubDate>Tue, 21 Jul 2026 14:07:18 +0900</pubDate>
             <link>https://github.com/xeminix/barmover</link>
@@ -64,24 +80,6 @@
 - 앱 시작 직후 아이콘 정보가 충분히 준비된 뒤에 배치를 복원하도록 했습니다. 준비되기 전에 복원을 시도해 배치가 어긋나던 문제를 방지합니다.
 ]]></description>
             <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.20/Barmover.dmg" length="4537652" type="application/octet-stream" sparkle:edSignature="w0yC+LRIClJC4kdkwKYbPBW5c8m/upELnoGh+ZkojI04STGX/yR80PaBsSQ9P1zQ00keihJZ4YDoPhb8Rth1Bw=="/>
-        </item>
-        <item>
-            <title>1.0.19</title>
-            <pubDate>Thu, 16 Jul 2026 15:03:04 +0900</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.19
-
-## 버그 수정
-
-### 메뉴바에서 옮긴 아이콘이 재시작 후 원위치로 되돌아가던 문제 완화
-- 메뉴바에서 Cmd+드래그로 아이콘을 표시/숨김 영역으로 옮겨도, 특정 앱(특히 아이콘 식별이 어려운 앱)의 경우 그 변경이 저장되지 않아 재시작 시 이전 배치로 되돌아가던 문제를 개선했습니다.
-- 배치를 저장하는 순간 아이콘 식별을 다시 정확히 수행하도록 하고, 저장에 실패한 경우를 진단 로그로 남겨 원인을 추적할 수 있게 했습니다.
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.19/Barmover.dmg" length="4531095" type="application/octet-stream" sparkle:edSignature="PGdDsikZYDDtZ1evt+lhkVbrAwG2AONPyTqG9icsltkhBoOIz9fxXLcJenSJUeorWBb7WJo8vYHI+DCQvnrNCg=="/>
         </item>
     </channel>
 </rss>
