@@ -3,6 +3,23 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.0.26</title>
+            <pubDate>Tue, 18 Aug 2026 17:03:17 +0900</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>1.0.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.26
+
+- 새로 실행한 앱의 메뉴바 아이콘이 어디에도 안 보이던 문제를 해결했습니다.
+- 새로 감지된 앱 아이콘을 항상 보이는 영역(Visible)에 배치해, 앱 실행 여부를 바로 확인할 수 있습니다.
+- 숨김 경계에 끼어 숨겨지지 않던 아이콘이 시작 시 자동으로 제자리로 복원됩니다.
+- 특정 앱(멀티 윈도우·좌표가 불안정한 앱)의 아이콘 식별 안정성을 개선했습니다.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.26/Barmover.dmg" length="4770711" type="application/octet-stream" sparkle:edSignature="9NUdNC6Ey9c4vQ+edmV4Nc9MH1BbRGmqdmZHisvuHOdq+iDOpSBvm8zPnhwkz7fK3wW/c/7hSkoZTWLGi1QlDA=="/>
+        </item>
+        <item>
             <title>1.0.25</title>
             <pubDate>Fri, 14 Aug 2026 14:46:14 +0900</pubDate>
             <link>https://github.com/xeminix/barmover</link>
@@ -33,20 +50,6 @@
 - 숨김 영역 아이콘 위에 마우스를 올리면, 해당 아이콘의 실시간 이미지는 macOS 제약으로 앱 아이콘으로 대체 표시된다는 안내를 추가했습니다.
 ]]></description>
             <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.24/Barmover.dmg" length="4631066" type="application/octet-stream" sparkle:edSignature="zsPRdVgb42tanUN+Jdk+TcKBGij4mak1uBpRWubRfkImO/4tmPgtQ8gilTQbeWwy/pcZRIA/9mQzztsXEAOmCw=="/>
-        </item>
-        <item>
-            <title>1.0.23</title>
-            <pubDate>Tue, 11 Aug 2026 09:41:58 +0900</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.0.23
-
-- 사용 중 마우스 커서가 메뉴바로 갑자기 튀던 문제 수정 — 웹 브라우징 등으로 백그라운드 프로세스가 자주 뜨고 내릴 때 불필요한 아이콘 재정렬이 일어나 커서가 끌려가던 현상을 해결했습니다.
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.0.23/Barmover.dmg" length="4615632" type="application/octet-stream" sparkle:edSignature="qmGg5IDdbeFwnBfdu85DC4nvZVYrBuycGwwVQLcvXhH2gPWPKvdyka5RKEuTNpOu+uivfLUBoA9KicqIJ8dqCw=="/>
         </item>
     </channel>
 </rss>
