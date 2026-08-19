@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Klippa Updates</title>
+        <link>https://raw.githubusercontent.com/xeminix/xeminix_release/main/klippa/appcast.xml</link>
+        <description>Klippa update feed</description>
+        <language>en</language>
+        <item>
+            <title>Klippa 1.0.13</title>
+            <description><![CDATA[
+                <h2>What's New in 1.0.13</h2>
+                <ul>
+                    <li>Press Space on an image card for a Quick Look style preview</li>
+                    <li>New image editor (E): red pen, circles, crop and rotation with undo</li>
+                    <li>Hold (⌘P) keeps a preview on screen while you work in other apps</li>
+                    <li>Edited images are saved back to the card at full resolution</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 19 Aug 2026 17:08:39 +0900</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.5</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v1.0.13/Klippa.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature=""
+                length="4900496"
+            />
+        </item>
+    </channel>
+</rss>
