@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.40</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.40</h2>
+                <ul>
+                    <li>[Fix] <strong>압축 파일 안을 탐색하면 경로 막대에 <code>..</code> 항목이 수십 개씩 나타나던 문제</strong> — Intel 맥에서만 발생했습니다. 경로 막대가 압축 파일 내부 위치를 일반 폴더처럼 거슬러 올라가려다 실패한 탓입니다. 이제 압축 파일과 그 안의 폴더가 경로 막대에 단계별로 표시되고, 각 단계를 눌러 그 위치로 돌아갈 수 있습니다.</li>
+                    <li>[Fix] <strong>디렉토리 핫리스트(⌘D)가 비어 있을 때 방향키가 핫리스트 대신 뒤쪽 파일 목록의 선택을 움직이던 문제.</strong> 같은 원인으로 <strong>핫리스트 편집 모드에서 ESC가 안 먹던 문제</strong>도 함께 수정했습니다.</li>
+                    <li>[Fix] <strong>핫리스트 필터에 일치하는 항목이 없는 상태에서 Return을 누르면 아무 표시 없이 현재 폴더가 핫리스트에 추가되던 문제.</strong></li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 24 Aug 2026 15:37:35 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.40/QuaFinder-0.2.40.dmg"
+                sparkle:version="54"
+                sparkle:shortVersionString="0.2.40"
+                sparkle:edSignature="c02U1V+tUTLfQXO4n6IoxypI+bc0rwDVYqwbbHibwX1iFobFwPn0jihIjCPLV8hvKEOY4ZK96jZUxxEYSSBZDA=="
+                length="8810719"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.39</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.39</h2>
