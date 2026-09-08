@@ -6,6 +6,29 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.42</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.42</h2>
+                <ul>
+                    <li>[Feature] <strong>7z 압축 파일 지원.</strong> ⌘더블클릭으로 내부 탐색, 우클릭 Decompress 로 전체 해제, 드래그로 개별 파일 추출이 됩니다. 우클릭 <strong>압축</strong> 메뉴에서 ZIP / 7z 를 골라 만들 수 있습니다. macOS 내장 도구만 사용하므로 별도 설치가 없습니다.</li>
+                    <li>[Feature] <strong>RAR 압축 파일 탐색·해제.</strong> RAR4 / RAR5 를 읽습니다. RAR 생성은 지원하지 않습니다.</li>
+                    <li>[Feature] <strong>암호화된 7z / RAR 는 명확한 안내.</strong> macOS 내장 도구가 암호화 7z/RAR 를 읽지 못하므로, 암호를 물어보는 대신 "읽을 수 없음" 안내를 띄웁니다. 7z 생성에는 암호 옵션이 없습니다.</li>
+                    <li>[Fix] <strong>압축 파일 안의 한글 이름 파일이 목록에는 보이는데 열거나 꺼낼 수 없던 문제</strong> (tar 계열). 이름이 아주 짧은 파일이 목록에서 빠지던 문제, 이름에 공백이 연속으로 들어간 파일을 꺼낼 수 없던 문제도 함께 고쳤습니다.</li>
+                    <li>[Fix] <strong>손상되거나 헤더가 암호화된 압축 파일이 빈 폴더처럼 보이던 문제.</strong> 이제 진입하지 않고 이유를 표시합니다.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 08 Sep 2026 18:37:35 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.42/QuaFinder-0.2.42.dmg"
+                sparkle:version="56"
+                sparkle:shortVersionString="0.2.42"
+                sparkle:edSignature="uEv7iSHAXOt8TBjkox11+syZYp2/kHuXlmaXcmSLgNYWGV0PAztSlFx+MB+8kMOH0fEkJzx4ZfPntMAgZFKgCg=="
+                length="8847647"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.41</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.41</h2>
