@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.41</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.41</h2>
+                <ul>
+                    <li>[Feature] <strong>폴더별 정렬 기억.</strong> 헤더 클릭·정렬 메뉴·단축키(⌃1~4, ⌃0)로 정렬을 바꾸면 그 폴더에 기록되고, 어느 탭에서든 그 폴더로 들어가면 기억된 정렬이 적용됩니다. 압축 파일 내부와 태그 탐색 중에는 기록하지 않습니다.</li>
+                    <li>[Fix] <strong>앱을 재시작하면 활성 탭 외의 탭 정렬이 풀리던 문제.</strong> 세션 저장이 패널당 활성 탭 정렬만 기억했습니다. 이제 탭마다 정렬 키·방향·보기 모드를 저장하고 복원합니다.</li>
+                    <li>[Fix] <strong>폴더를 지나가거나 세션이 복원될 때 새 탭의 기본 정렬이 바뀌던 문제.</strong> 새 탭이 물려받는 "마지막 정렬"은 이제 사용자가 직접 바꾼 경우에만 갱신됩니다.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 08 Sep 2026 11:18:00 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.41/QuaFinder-0.2.41.dmg"
+                sparkle:version="55"
+                sparkle:shortVersionString="0.2.41"
+                sparkle:edSignature="CX8Y29VA9fSoFz6jX4zwjdM76U49KWI+Aoo/5HfAh3BWxHWxXSbEic+2vurFpOKagXk0AspC1N8OOHSDhkMADA=="
+                length="8823093"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.40</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.40</h2>
