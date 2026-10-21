@@ -3,6 +3,22 @@
     <channel>
         <title>barmover</title>
         <item>
+            <title>1.1.6</title>
+            <pubDate>Wed, 21 Oct 2026 15:26:08 +0900</pubDate>
+            <link>https://github.com/xeminix/barmover</link>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Barmover 1.1.6
+
+## 고친 점
+- **아이콘을 표시 영역으로 옮기지 못하던 문제**: 같은 아이콘을 여러 번 옮기다 보면 표시 영역에 놓을 자리가 점점 줄어 결국 옮기지 못하고, 아이콘(예: Synology Drive)이 사라져 보이던 문제를 고쳤습니다. 이제 충분한 빈자리를 찾아 옮깁니다.
+- **설정 화면 표시가 실제와 다르던 문제**: 표시 영역으로 지정했지만 실제로는 숨겨져 있는 아이콘을 설정 화면이 "표시"로 보여 주던 문제를 고쳤습니다. 이제 실제 상태대로 보여 줍니다.
+- 위치를 바로잡지 못한 경우를 진단 기록에 명확히 남기도록 개선했습니다.
+]]></description>
+            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.1.6/Barmover.dmg" length="5530094" type="application/octet-stream" sparkle:edSignature="+fjqRhLKAhYN4mkxMWxayM2sicPAZ32dnmwAPKcnsKQIa/uZ7L+h/3+iahQAQ1JwxQgGnwfptNbInnV6UHxgAg=="/>
+        </item>
+        <item>
             <title>1.1.5</title>
             <pubDate>Wed, 21 Oct 2026 14:21:20 +0900</pubDate>
             <link>https://github.com/xeminix/barmover</link>
@@ -34,23 +50,6 @@
 - **아이콘 도달성 자가 점검**: 실행 중인 메뉴바 앱 아이콘이 메뉴바에도 숨김 패널에도 없는 상태가 이어지면 Barmover가 스스로 감지해 기록하고, 안전한 경우 표시 영역으로 되돌립니다.
 ]]></description>
             <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.1.4/Barmover.dmg" length="5436223" type="application/octet-stream" sparkle:edSignature="yShDLZiwbwvuBIWzQxqfbrsybGoRGqyiLsSiiVKN/eBTVoXY8c8wPoaT7OS6BPjIxKVY94VrqFqDeKvtTzcKCg=="/>
-        </item>
-        <item>
-            <title>1.1.3</title>
-            <pubDate>Tue, 20 Oct 2026 13:19:08 +0900</pubDate>
-            <link>https://github.com/xeminix/barmover</link>
-            <sparkle:version>32</sparkle:version>
-            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Barmover 1.1.3
-
-## 고친 점
-- **MacBook 메뉴바에서 숨김이 풀리던 문제**: 외부 모니터를 연결하거나 분리해 화면 구성이 바뀌면, MacBook(노치) 메뉴바에서만 Barmover 아이콘이 사라지고 숨긴 아이콘이 모두 보이던 문제를 고쳤습니다. 이제 화면 구성이 바뀌면 숨김 배치를 자동으로 다시 맞춥니다.
-- **숨김 패널의 엉뚱한 아이콘 그림**: 메뉴바에 자리가 부족한 상태에서 Barmover가 시작되면 숨김 패널 아이콘이 `‹ «` 같은 기호로 보여 고를 수 없던 문제를 고쳤습니다. 이제 그런 경우 저장해 둔 그림이나 앱 아이콘을 보여 줍니다.
-- **시스템 부담 줄임**: 내부 진단 기록이 화면 반응을 담당하는 스레드에서 쓰이고 크기 제한 없이 커지던 것을 고쳤습니다(백그라운드 기록 + 용량 상한). 쉬는 동안 불필요하게 깨어나던 위치 확인도 줄였습니다.
-- 문제 진단을 위해 이전 실행의 기록을 보존하도록 개선했습니다.
-]]></description>
-            <enclosure url="https://github.com/xeminix/xeminix_release/releases/download/barmover-v1.1.3/Barmover.dmg" length="5404466" type="application/octet-stream" sparkle:edSignature="JYi5KHnYgh1VGnWQkcL8Ej8u3Tdn+wVPH25P457hJvqZgGXJ/oFRCGbpAUbjcU8UqPYxDVdRTHsZ6WWVTxN8Bw=="/>
         </item>
         <item>
             <title>1.0.28</title>
