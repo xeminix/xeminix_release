@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.44</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.44</h2>
+                <ul>
+                    <li>[Feature] <strong>iPhone/iPad 연결 기기 탐색.</strong> USB로 연결한 iPhone/iPad가 사이드바 '연결 기기'에 나타나고, 사진·동영상(Media) 폴더를 패널에서 바로 탐색할 수 있습니다. F5 복사나 드래그로 Mac에 가져오고, 더블클릭하면 기본 앱으로 엽니다. 기기를 신뢰하지 않았거나 잠겨 있으면 안내를 보여 줍니다. 이번 버전은 읽기 전용이며, 기기로 복사·삭제·이름 바꾸기는 다음 단계에서 지원합니다.</li>
+                    <li>[Fix] 최신 Xcode에서 빌드가 실패하던 문제를 고쳤습니다.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 22 Oct 2026 09:15:36 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.44/QuaFinder-0.2.44.dmg"
+                sparkle:version="58"
+                sparkle:shortVersionString="0.2.44"
+                sparkle:edSignature="d83VnoMh2m1kxLTHY4dV3kFJM0oKUUxc6aBfKmaQaR+UWOE9kAvReemV7MrYxgPfQ/PJypScMxd2KasjaYm/BQ=="
+                length="13984799"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.43</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.43</h2>
