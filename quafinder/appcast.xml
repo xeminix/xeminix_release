@@ -6,6 +6,26 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.46</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.46</h2>
+                <ul>
+                    <li>[Fix] <strong>네트워크(SMB) 드라이브에서 앱이 멈추던 문제.</strong> 서버 응답이 느리거나 네트워크가 바뀌는 중에 폴더를 열면 앱 전체가 수십 초 동안 멈추던 문제를 고쳤습니다. 폴더 변경 감시, 경로 표시줄, 남은 용량, 사이드바, 컬럼 보기, 미리보기 등이 서버를 기다리는 동안에도 화면은 계속 반응합니다. 응답 없는 공유 폴더가 다른 폴더의 목록 표시까지 막지 않습니다.</li>
+                    <li>[Fix] 경로 중간에 바로가기(심볼릭 링크)가 있는 네트워크 폴더를 올바른 볼륨으로 인식합니다. 네트워크 드라이브의 파일은 종류별 아이콘으로 표시합니다.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 26 Oct 2026 14:18:52 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.46/QuaFinder-0.2.46.dmg"
+                sparkle:version="60"
+                sparkle:shortVersionString="0.2.46"
+                sparkle:edSignature="wyjUOz+D6WvVQJm8RDXOp2QSqS3aSVaFfwZ/1ZRk3oGLMCD9mUqNiqjuFroItRMFeOA/rfs3yyGpnd838uGHBQ=="
+                length="14226399"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.45</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.45</h2>
