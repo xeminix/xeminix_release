@@ -6,6 +6,25 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.47</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.47</h2>
+                <ul>
+                    <li>[UI] <strong>앱 아이콘 교체.</strong> 인텔 맥에서 아이콘 모서리 여백이 흰색으로 보이던 문제를 고쳤습니다.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 26 Oct 2026 16:05:01 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.47/QuaFinder-0.2.47.dmg"
+                sparkle:version="61"
+                sparkle:shortVersionString="0.2.47"
+                sparkle:edSignature="IMwD1M1bt45NYof9kd02H2Q4xsGpwuCTlc3jUaXEYqFjfaOhS5aYx1OKnFHaIhLdrbEhjoSnXwLkCK9M17ABBg=="
+                length="13112904"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.46</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.46</h2>
