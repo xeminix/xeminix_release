@@ -6,6 +6,28 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.48</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.48</h2>
+                <ul>
+                    <li>[Fix] <strong>읽기 전용 폴더로 드래그하면 아무 반응이 없던 문제.</strong> 이제 "읽기 전용 폴더" 안내로 이유를 알려 줍니다.</li>
+                    <li>[Fix] 복사·이동이 실패하면 파일 이름과 이유를 화면 가운데 안내로 보여 줍니다.</li>
+                    <li>[UI] 실패·안내 메시지는 더 오래(3~5초) 보이고, 마우스를 올리면 사라지지 않습니다. 안내창이 클릭을 가로채지 않습니다.</li>
+                    <li>[Fix] 네트워크 드라이브로 복사할 때 이름 충돌 확인이 화면을 멈추게 할 수 있던 문제.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 27 Oct 2026 16:33:10 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.48/QuaFinder-0.2.48.dmg"
+                sparkle:version="62"
+                sparkle:shortVersionString="0.2.48"
+                sparkle:edSignature="poqMoaj6OftHLVCmhD7PcwFc1hoWVybtzZgjjhLTNmoDaKmApgDNJNQmTUPqKET8Ai1hwLAETashqzEK0McaBw=="
+                length="13117948"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.47</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.47</h2>
