@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.49</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.49</h2>
+                <ul>
+                    <li>[Fix] <strong>남은 용량 표시가 갱신되지 않던 문제.</strong> 앱으로 돌아올 때, 그리고 앱이 앞에 있는 동안 30초마다 남은 용량을 다시 확인합니다.</li>
+                    <li>[Fix] 전체 디스크 접근 권한을 허용했는데도 "허용 안 됨"으로 표시되던 문제 (특히 macOS 27).</li>
+                    <li>[UI] 설정 창이 열려 있는 동안 권한 상태가 바로 반영됩니다.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 02 Nov 2026 14:27:15 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.49/QuaFinder-0.2.49.dmg"
+                sparkle:version="63"
+                sparkle:shortVersionString="0.2.49"
+                sparkle:edSignature="yG9SFedyNiprHlsZ/cA4MrX5dDS7KH0RJAS3F5aoBVavnQwmdW+xLxgoEWJ4Rjdo7cgavDfNILa71ynW1shkAQ=="
+                length="13133102"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.48</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.48</h2>
