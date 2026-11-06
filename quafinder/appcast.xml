@@ -6,6 +6,27 @@
         <description>QuaFinder Updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.2.50</title>
+            <description><![CDATA[
+                <h2>QuaFinder v0.2.50</h2>
+                <ul>
+                    <li>[Fix] <strong>검색이 하위 폴더 안의 파일을 찾지 못하던 문제.</strong> 현재 폴더 아래 모든 하위 폴더를 직접 찾아봅니다. Spotlight에 잡히지 않는 파일(.sql 등)도 찾습니다. 숨김 파일은 패널의 숨김 파일 표시 설정을 따르고, node_modules 안과 다른 볼륨은 건너뜁니다.</li>
+                    <li>[Fix] 검색창이나 명령 팔레트를 Esc로 닫으면 키보드 입력이 먹지 않던 문제.</li>
+                    <li>[Fix] 컬럼이 패널보다 넓을 때 파일을 클릭하면 목록이 오른쪽으로 살짝 밀리던 문제.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 06 Nov 2026 15:18:01 +0900</pubDate>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/xeminix/xeminix_release/releases/download/v0.2.50/QuaFinder-0.2.50.dmg"
+                sparkle:version="64"
+                sparkle:shortVersionString="0.2.50"
+                sparkle:edSignature="76sVF5dcFObakya9srenUtnLuNl78kACHUnFkEgnuBBpRJgwxUJThLXrtZtyqqpV8x0ce3NnJPqiaSn33EPJBA=="
+                length="13144323"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.2.49</title>
             <description><![CDATA[
                 <h2>QuaFinder v0.2.49</h2>
